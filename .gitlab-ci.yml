@@ -4,6 +4,7 @@ stages:
   - build
   - test
   - deploy
+  - deployment tests
 
 build website:
   stage: build
@@ -35,3 +36,9 @@ deploy to surge:
   script:
     - npm install --global surge
     - surge --project ./public --domain instazone.surge.sh
+
+test deployment:
+  image: alpine
+  stage: deployment tests
+  script:
+    curl -s "https://instazone.surge.sh" | grep "Hi people"
