@@ -6,7 +6,7 @@ stages:
   - deploy
   - deployment tests
 
-build website:
+.build website:
   stage: build
   script:
     - npm install
@@ -16,13 +16,13 @@ build website:
     paths:
       - ./public
 
-test artifact:
+.test artifact:
   image: alpine
   stage: test
   script:
     - grep -q "Gatsby" ./public/index.html
 
-test website:
+.test website:
   stage: test
   script:
     - npm install
@@ -31,7 +31,7 @@ test website:
     - sleep 3
     - curl "http://localhost:9000" | tac | tac | grep -q "Gatsby"
 
-deploy to surge: 
+.deploy to surge: 
   stage: deploy
   script:
     - npm install --global surge
@@ -41,4 +41,5 @@ test deployment:
   image: alpine
   stage: deployment tests
   script:
-    curl -s "https://instazone.surge.sh" | grep "Hi people"
+    - apk add --no-cache curl
+    - curl -s "https://instazone.surge.sh" | grep "Hi people"
