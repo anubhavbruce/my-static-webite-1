@@ -18,6 +18,8 @@ variables:
 
 build website:
   stage: build
+  only:
+    - merge_requests
   script:
     - echo $CI_COMMIT_SHORT_SHA
     - npm install
@@ -31,11 +33,15 @@ build website:
 test artifact:
   image: alpine
   stage: test
+  only:
+    - merge_requests
   script:
     - grep -q "Gatsby" ./public/index.html
 
 test website:
   stage: test
+  only:
+    - merge_requests
   script:
     - npm install
     - npm install -g gatsby-cli
