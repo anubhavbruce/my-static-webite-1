@@ -3,6 +3,7 @@ image: node:10
 stages:
   - build
   - test
+  - deploy review
   - deploy staging
   - deploy production
   - production tests
@@ -51,6 +52,17 @@ test website:
     - gatsby serve &
     - sleep 3
     - curl "http://localhost:9000" | tac | tac | grep -q "Gatsby"
+
+deploy review:
+  stage: deploy review
+  only:
+    - merge_requests
+  environment:
+      name: review/$CI_COMMIT_REF_NAME
+      url: https://instazone-$CI_ENVIRONMENT_SLUG.surge.sh
+  script:
+    - npm install --global surge
+    - surge --project ./public --domain instazone-$CI_ENVIRONMENT_SLUG.surge.sh
 
 deploy staging: 
   stage: deploy staging
