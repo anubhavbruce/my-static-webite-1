@@ -19,6 +19,7 @@ variables:
 build website:
   stage: build
   only:
+    - master
     - merge_requests
   script:
     - echo $CI_COMMIT_SHORT_SHA
@@ -34,6 +35,7 @@ test artifact:
   image: alpine
   stage: test
   only:
+    - master
     - merge_requests
   script:
     - grep -q "Gatsby" ./public/index.html
@@ -41,6 +43,7 @@ test artifact:
 test website:
   stage: test
   only:
+    - master
     - merge_requests
   script:
     - npm install
