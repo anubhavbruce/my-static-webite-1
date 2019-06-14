@@ -12,6 +12,10 @@ const IndexPage = () => (
     <h2>This is a new title</h2>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
+    <h2>Who has editing this page: </h2>
+    <ul>
+        <li>Valentin</li>
+    </ul>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
