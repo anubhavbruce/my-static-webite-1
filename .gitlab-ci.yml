@@ -14,8 +14,8 @@ cache:
     - node_modules/
 
 variables:
-  STAGING_DOMAIN: instazone-staging.surge.sh
-  PRODUCTION_DOMAIN: instazone.surge.sh
+  STAGING_DOMAIN: gitlab-course-staging.surge.sh
+  PRODUCTION_DOMAIN: gitlab-course.surge.sh
 
 build website:
   stage: build
