@@ -13,7 +13,7 @@ const IndexPage = () => (
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <h4>Who has changed this page:</h4>
-    <table style="width: 50%;" border="2">
+    <table style={{ width: `50%;`, border: `2` }}>
       <tr>
         <th>First-Name</th>
         <th>Last-Name</th>
