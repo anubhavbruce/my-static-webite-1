@@ -12,6 +12,26 @@ const IndexPage = () => (
     <h2>This is a new title</h2>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
+    <h4>Who has changed this page:</h4>
+    <table style="width: 50%;" border="2">
+      <tr>
+        <th>First-Name</th>
+        <th>Last-Name</th>
+        <th>Gitlab User</th>
+      </tr>
+      <tbody>
+        <tr>
+          <td>Marcel</td>
+          <td>Vuijk</td>
+          <td>@mvuijk</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
