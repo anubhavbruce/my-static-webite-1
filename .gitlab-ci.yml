@@ -16,6 +16,7 @@ cache:
 variables:
   STAGING_DOMAIN: gitlab-course-staging.surge.sh
   PRODUCTION_DOMAIN: gitlab-course.surge.sh
+  REVIEW_DOMAIN: instazone-$CI_ENVIRONMENT_SLUG.surge.sh
 
 build website:
   stage: build
@@ -59,11 +60,11 @@ deploy review:
     - merge_requests
   environment:
       name: review/$CI_COMMIT_REF_NAME
-      url: https://instazone-$CI_ENVIRONMENT_SLUG.surge.sh
+      url: https://$REVIEW_DOMAIN
       on_stop: stop review
   script:
     - npm install --global surge
-    - surge --project ./public --domain instazone-$CI_ENVIRONMENT_SLUG.surge.sh
+    - surge --project ./public --domain $REVIEW_DOMAIN
 
 stop review:
   stage: deploy review
@@ -73,7 +74,7 @@ stop review:
     GIT_STRATEGY: none
   script:
     - npm install --global surge
-    - surge teardown instazone-$CI_ENVIRONMENT_SLUG.surge.sh
+    - surge teardown $REVIEW_DOMAIN
   when: manual
   environment:
     name: review/$CI_COMMIT_REF_NAME
