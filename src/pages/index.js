@@ -10,6 +10,7 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi people</h1>
     <h2>This is a new title</h2>
+    <h3>This is another new title :P</h3>
     <p>Welcome to your new Gatsby site.</p>
     <p>this is the paragraph added by a participant</p>
     <p>Now go build something great.</p>
