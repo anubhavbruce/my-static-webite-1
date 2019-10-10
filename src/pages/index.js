@@ -38,6 +38,11 @@ const IndexPage = () => (
           <td>alxmlo</td>
         </tr>
         <tr>
+          <td>Pedro</td>
+          <td>Capdevila</td>
+          <td>@pcapdevila</td>
+        </tr>
+        <tr>
           <td>&nbsp;</td>
           <td>&nbsp;</td>
           <td>&nbsp;</td>
