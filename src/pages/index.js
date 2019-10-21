@@ -27,22 +27,26 @@ const IndexPage = () => (
         <th>First-Name</th>
         <th>Last-Name</th>
         <th>Gitlab User</th>
+        <th>Arbitrary New Column</th>
       </tr>
       <tbody>
         <tr>
           <td>Marcel</td>
           <td>Vuijk</td>
           <td>@mvuijk</td>
+          <td>This</td>
         </tr>
         <tr>
           <td>Juan Carlos</td>
           <td>Martinez</td>
           <td>@jkmrto</td>
+          <td>is</td>
         </tr>
         <tr>
           <td>Alejandro</td>
           <td>Melo</td>
           <td>alxmlo</td>
+          <td>Sparta</td>
         </tr>
         <tr>
           <td>Pedro</td>
@@ -58,6 +62,7 @@ const IndexPage = () => (
           <td>&nbsp;</td>
           <td>&nbsp;</td>
           <td>&nbsp;</td>
+          <td>!!!</td>
         </tr>
       </tbody>
     </table>
