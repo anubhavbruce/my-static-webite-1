@@ -15,6 +15,9 @@ const IndexPage = () => (
     <p>this is the paragraph added by a participant</p>
     <p>Now go build something great.</p>
     <h4>Who has changed this page:</h4>
+    <div>
+        Adding simple paragraph before the table
+    </div>
     <table style={{ width: `50%;`, border: `2` }}>
       <tr>
         <th>First-Name</th>
