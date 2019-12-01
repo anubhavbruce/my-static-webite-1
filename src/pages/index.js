@@ -14,6 +14,7 @@ const IndexPage = () => (
     <p>Welcome to your new Gatsby site.</p>
     <p>this is the paragraph added by a participant</p>
     <p>Now go build something great.</p>
+    <p>Cool, I like it!</p>
     <h4>Who has changed this page:</h4>
     <div>
         Adding simple paragraph before the table
