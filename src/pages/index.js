@@ -10,11 +10,11 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>My own merge request</h1>
     <h2>This is a new title</h2>
-    <h3>This is another new title :P</h3>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>this is the paragraph added by a participant</p>
-    <p>Now go build something great.</p>
-    <h4>Who has changed this page:</h4>
+    <h1>Hello people de lenouva</h1>
+    <p>
+      I eat banana every day but i prefer orange. 
+      Someone can understand me.
+    </p>
     <div>
         Adding simple paragraph before the table
     </div>
