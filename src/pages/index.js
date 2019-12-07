@@ -8,6 +8,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <h1>Hi people</h1>
     <h1>My own merge request</h1>
     <h2>This is a new title</h2>
     <h3>This is another new title :P</h3>
@@ -17,6 +18,9 @@ const IndexPage = () => (
     <h4>Who has changed this page:</h4>
     <div>
         Adding simple paragraph before the table
+    </div>
+    <div>
+      Little hello from France !... Have a nice day ...
     </div>
     <table style={{ width: `50%;`, border: `2` }}>
       <tr>
@@ -44,6 +48,11 @@ const IndexPage = () => (
           <td>Pedro</td>
           <td>Capdevila</td>
           <td>@pcapdevila</td>
+        </tr>
+        <tr>
+          <td>Michel</td>
+          <td>Kreutner</td>
+          <td>@mik57</td>
         </tr>
         <tr>
           <td>&nbsp;</td>
