@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
+    <h1>Hi people!!!11111</h1>
     <h1>My own merge request</h1>
     <h2>This is a new title</h2>
     <h3>This is another new title :P</h3>
