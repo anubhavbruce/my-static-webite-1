@@ -22,6 +22,9 @@ const IndexPage = () => (
     <div>
       Little hello from France !... Have a nice day ...
     </div>
+    <div>
+      Little hello from Poland !... Have a nice day ...
+    </div>
     <table style={{ width: `50%;`, border: `2` }}>
       <tr>
         <th>First-Name</th>
