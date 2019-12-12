@@ -19,6 +19,8 @@ const IndexPage = () => (
     <div>
         Adding simple paragraph before the table
     </div>
+
+    <div> just a div </div>
     <div>
       Little hello from France !... Have a nice day ...
     </div>
