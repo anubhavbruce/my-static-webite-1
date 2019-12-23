@@ -26,8 +26,8 @@ build website:
     - echo $CI_COMMIT_SHORT_SHA
     - npm install
     - npm install -g gatsby-cli
+    - sed -i "s/%%VERSION%%/$CI_COMMIT_SHORT_SHA/" ./src/components/layout.js
     - gatsby build
-    - sed -i "s/%%VERSION%%/$CI_COMMIT_SHORT_SHA/" ./public/index.html
   artifacts:
     paths:
       - ./public
