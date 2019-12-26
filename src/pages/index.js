@@ -4,6 +4,40 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import UsersTable from "../components/users-table"
+
+const users = [
+  {
+    fname: 'Marcel',
+    lname: 'Marcel',
+    nickname: '@mvuijk'
+  },
+  {
+    fname: 'Juan Carlos',
+    lname: 'Martinez',
+    nickname: '@jkmrto'
+  },
+  {
+    fname: 'Alejandro',
+    lname: 'Melo',
+    nickname: '@alxmlo'
+  },
+  {
+    fname: 'Pedro',
+    lname: 'Capdevila',
+    nickname: '@pcapdevila'
+  },
+  {
+    fname: 'Michel',
+    lname: 'Kreutner',
+    nickname: '@mik57'
+  },
+  {
+    fname: 'Artem',
+    lname: 'Holinka',
+    nickname: '@artem.holinka'
+  }
+]
 
 const IndexPage = () => (
   <Layout>
@@ -22,45 +56,9 @@ const IndexPage = () => (
     <div>
       Little hello from France !... Have a nice day ...
     </div>
-    <table style={{ width: `50%;`, border: `2` }}>
-      <tr>
-        <th>First-Name</th>
-        <th>Last-Name</th>
-        <th>Gitlab User</th>
-      </tr>
-      <tbody>
-        <tr>
-          <td>Marcel</td>
-          <td>Vuijk</td>
-          <td>@mvuijk</td>
-        </tr>
-        <tr>
-          <td>Juan Carlos</td>
-          <td>Martinez</td>
-          <td>@jkmrto</td>
-        </tr>
-        <tr>
-          <td>Alejandro</td>
-          <td>Melo</td>
-          <td>alxmlo</td>
-        </tr>
-        <tr>
-          <td>Pedro</td>
-          <td>Capdevila</td>
-          <td>@pcapdevila</td>
-        </tr>
-        <tr>
-          <td>Michel</td>
-          <td>Kreutner</td>
-          <td>@mik57</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </tbody>
-    </table>
+    <br />
+    <UsersTable users={users} />
+    <br />
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
