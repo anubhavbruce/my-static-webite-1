@@ -50,6 +50,7 @@ const IndexPage = () => (
     <h1>Hi people</h1>
     <h1>My own merge request</h1>
     <h2>This is a new title</h2>
+    <p>New paragraph added here</p>
     <h3>This is another new title :P</h3>
     <h3>And another new title to test 2</h3>
     <h3>Wak up Neo ! ... The Matrix has you.</h3>
