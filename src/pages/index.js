@@ -8,47 +8,47 @@ import UsersTable from "../components/users-table"
 
 const users = [
   {
-    fname: 'Marcel',
-    lname: 'Marcel',
-    nickname: '@mvuijk'
+    fname: "Marcel",
+    lname: "Marcel",
+    nickname: "@mvuijk",
   },
   {
-    fname: 'Juan Carlos',
-    lname: 'Martinez',
-    nickname: '@jkmrto'
+    fname: "Juan Carlos",
+    lname: "Martinez",
+    nickname: "@jkmrto",
   },
   {
-    fname: 'Alejandro',
-    lname: 'Melo',
-    nickname: '@alxmlo'
+    fname: "Alejandro",
+    lname: "Melo",
+    nickname: "@alxmlo",
   },
   {
-    fname: 'Pedro',
-    lname: 'Capdevila',
-    nickname: '@pcapdevila'
+    fname: "Pedro",
+    lname: "Capdevila",
+    nickname: "@pcapdevila",
   },
   {
-    fname: 'Michel',
-    lname: 'Kreutner',
-    nickname: '@mik57'
+    fname: "Michel",
+    lname: "Kreutner",
+    nickname: "@mik57",
   },
   {
-    fname: 'Artem',
-    lname: 'Holinka',
-    nickname: '@artem.holinka'
+    fname: "Artem",
+    lname: "Holinka",
+    nickname: "@artem.holinka",
   },
-    {
-    fname: 'Aline',
-    lname: 'Aline',
-    nickname: '@aline.test'
-  }
+  {
+    fname: "Aline",
+    lname: "Aline",
+    nickname: "@aline.test",
+  },
 ]
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi people</h1>
-    <h1>My own merge request</h1>
+    <h1>Matt's merge request</h1>
     <h2>This is a new title</h2>
     <h3>This is another new title :P</h3>
     <h3>And another new title to test 2</h3>
@@ -56,12 +56,8 @@ const IndexPage = () => (
     <p>this is the paragraph added by a participant</p>
     <p>Now go build something great.</p>
     <h4>Who has changed this page:</h4>
-    <div>
-        Adding simple paragraph before the table
-    </div>
-    <div>
-      Little hello from France !... Have a nice day ...
-    </div>
+    <div>Adding simple paragraph before the table</div>
+    <div>Little hello from France !... Have a nice day ...</div>
     <br />
     <UsersTable users={users} />
     <br />
