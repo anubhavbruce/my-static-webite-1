@@ -48,7 +48,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi people</h1>
-    <h1>My own merge request</h1>
+    <h1>Matt's merge request</h1>
     <h2>This is a new title</h2>
     <p>New paragraph added here</p>
     <h3>This is another new title :P</h3>
