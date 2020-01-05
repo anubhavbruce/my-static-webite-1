@@ -42,6 +42,11 @@ const users = [
     lname: 'Aline',
     nickname: '@aline.test'
   }
+  {
+    fname: 'beregmira',
+    lname: 'beregmira',
+    nickname: '@beregmira'
+  }
 ]
 
 const IndexPage = () => (
@@ -62,6 +67,7 @@ const IndexPage = () => (
     <div>
       Little hello from France !... Have a nice day ...
     </div>
+    <p>New branch changes from russian students</p>
     <br />
     <UsersTable users={users} />
     <br />
