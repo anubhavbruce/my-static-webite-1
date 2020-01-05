@@ -41,7 +41,7 @@ const users = [
     fname: 'Aline',
     lname: 'Aline',
     nickname: '@aline.test'
-  }
+  },
   {
     fname: 'beregmira',
     lname: 'beregmira',
