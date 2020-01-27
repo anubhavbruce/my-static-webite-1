@@ -52,6 +52,7 @@ const IndexPage = () => (
     <h2>This is a new title</h2>
     <h3>This is another new title :P</h3>
     <h3>And another new title to test 2</h3>
+    <h4>Professor Sensei was here</h4>
     <p>Welcome to your new Gatsby site.</p>
     <p>this is the paragraph added by a participant</p>
     <p>Now go build something great.</p>
