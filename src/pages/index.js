@@ -62,6 +62,9 @@ const IndexPage = () => (
     <div>
       Little hello from France !... Have a nice day ...
     </div>
+    <div>
+      Listing out all the wonderful users we have!
+    </div>
     <br />
     <UsersTable users={users} />
     <br />
