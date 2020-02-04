@@ -17,6 +17,7 @@ variables:
   STAGING_DOMAIN: gitlab-course-staging.surge.sh
   PRODUCTION_DOMAIN: gitlab-course.surge.sh
 
+
 build website:
   stage: build
   only:
