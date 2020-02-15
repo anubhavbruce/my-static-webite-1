@@ -70,7 +70,7 @@ const IndexPage = () => (
       This is a message from Perú: Buenos días a todos.
     </div>
     <div>
-      Happy Valantine's day!
+      Happy Valantine&apos;s day!
     </div>
     <br />
     <UsersTable users={users} />
