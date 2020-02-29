@@ -47,14 +47,14 @@ const users = [
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
+    <h1>Hallo Leute</h1>
     <ul>
-      <li>My own merge request</li>
-      <li>This is a new title</li>
-      <li>New li added here</li>
-      <li>This is another new li :P</li>
-      <li>And another new li to test 2</li>
-      <li>Wake up Neo ! ... The Matrix has you.</li>
+      <li>Dies ist ein wenig deutsch/german</li>
+      <li>You know germany? </li>
+      <li>Es ist ein schönes Land!</li>
+      <li>It's a cuty country! </li>
+      <li>I live by the baltic sea.</li>
+      <li>Done!</li>
     </ul>
     <p>Welcome to your new Gatsby site.</p>
     <p>this is the paragraph added by a participant</p>
