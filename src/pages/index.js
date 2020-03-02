@@ -10,7 +10,7 @@ const users = [
   {
     fname: 'Rachel',
     lname: 'Smith',
-    nickname: '@rachel"
+    nickname: '@rachel'
   },
   {
     fname: 'Marcel',
@@ -47,7 +47,7 @@ const users = [
     lname: 'Aline',
     nickname: '@aline.test'
   }
-]
+];
 
 const IndexPage = () => (
   <Layout>
