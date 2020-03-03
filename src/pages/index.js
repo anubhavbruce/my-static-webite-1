@@ -60,6 +60,7 @@ const IndexPage = () => (
       <li>It's a cuty country! </li>
       <li>I live by the baltic sea.</li>
       <li>Done!</li>
+      <li>Tere!</li>
     </ul>
     <p>Welcome to your new Gatsby site.</p>
     <p>this is the paragraph added by a participant</p>
