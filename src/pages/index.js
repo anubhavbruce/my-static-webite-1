@@ -87,6 +87,9 @@ const IndexPage = () => (
     <div>
       ABR was here!
     </div>
+    <div>
+      Greetigs from <img src="https://www.gettysburgflag.com/media/catalog/product/cache/2/thumbnail/520x416/602f0fa2c1f0d1ba5e241f914e856ff9/n/e/netherlands.jpg" />
+    </div>
     <br />
     <UsersTable users={users} />
     <br />
