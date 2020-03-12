@@ -87,6 +87,9 @@ const IndexPage = () => (
     <div>
       ABR was here!
     </div>
+    <div>
+      Dave was here!
+    </div>
     <br />
     <UsersTable users={users} />
     <br />
