@@ -57,40 +57,8 @@ const users = [
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi People</h1>
-    <ul>
-      <li>Dies ist ein wenig deutsch/german</li>
-      <li>You know germany? </li>
-      <li>Es ist ein schönes Land!</li>
-      <li>It's a cuty country! </li>
-      <li>I live by the baltic sea.</li>
-      <li>Done!</li>
-      <li>Tere!</li>
-    </ul>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>this is the paragraph added by a participant</p>
-    <p>Now go build something great.</p>
-    <p>Tick tock, tick tock.</p>
-    <p>This is a paragraph added as part of assignment </p>
+    <h1>Hi people</h1><!-- DO NOT REMOVE THIS LINE -->
     <h4>Who has changed this page:</h4>
-    <div>
-        Adding simple paragraph before the table
-    </div>
-    <div>
-      Little hello from France !... Have a nice day ...
-    </div>
-    <div>
-      This is a message from Perú: Buenos días a todos.
-    </div>
-    <div>
-      Hello from Switzerland ! Have a nice coding day !
-    </div>
-    <div>
-      ABR was here!
-    </div>
-    <div>
-      Greetigs from <img src="https://www.gettysburgflag.com/media/catalog/product/cache/2/thumbnail/520x416/602f0fa2c1f0d1ba5e241f914e856ff9/n/e/netherlands.jpg" />
-    </div>
     <br />
     <UsersTable users={users} />
     <br />
