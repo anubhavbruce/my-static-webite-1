@@ -72,6 +72,7 @@ const IndexPage = () => (
     <p>Now go build something great.</p>
     <p>Tick tock, tick tock.</p>
     <p>This is a paragraph added as part of assignment </p>
+    <p>Yolo!</p>
     <h4>Who has changed this page:</h4>
     <div>
         Adding simple paragraph before the table
