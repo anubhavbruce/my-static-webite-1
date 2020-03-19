@@ -51,6 +51,11 @@ const users = [
     fname: 'abr',
     lname: 'abr',
     nickname: '@abr.test'
+  },
+  {
+    fname: 'marcelo',
+    lname: 'llano',
+    nickname: '@marcelo.llano'
   }
 ];
 
@@ -84,6 +89,9 @@ const IndexPage = () => (
     </div>
     <div>
       Hello from Switzerland ! Have a nice coding day !
+    </div>
+    <div>
+      Hello from Paraguay! Take care and stay home...
     </div>
     <div>
       ABR was here!
