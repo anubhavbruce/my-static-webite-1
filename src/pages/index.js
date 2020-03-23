@@ -51,6 +51,11 @@ const users = [
     fname: 'abr',
     lname: 'abr',
     nickname: '@abr.test'
+  },
+  {
+    fname: 'Oleksandr',
+    lname: 'Panchenko',
+    nickname: '@fafko93'
   }
 ];
 
