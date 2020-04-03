@@ -68,6 +68,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi people</h1>
+    <h2>Nice today!</h2>
     <h4>Who has changed this page:</h4>
     <br />
     <UsersTable users={users} />
