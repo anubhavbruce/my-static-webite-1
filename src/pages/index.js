@@ -85,7 +85,7 @@ const users = [
   {
     fname: 'Saif',
     lname: 'Hussain',
-    nickname: '@SHussain'
+    nickname: '@SIHussain'
   },
   {
     fname: 'Stuart',
