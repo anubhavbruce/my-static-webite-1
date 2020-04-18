@@ -86,6 +86,11 @@ const users = [
     fname: 'Stuart',
     lname: 'Felker',
     nickname: '@stuartfe'
+  },
+  {
+    fname: 'Neivy',
+    lname: 'Read',
+    nickname: '@readrichn'
   }
 ];
 
@@ -94,6 +99,7 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi people</h1>
     <h2>Nice today!</h2>
+    <h3>Neivy was here 18APR2020!</h3>
     <h4>Who has changed this page:</h4>
     <br />
     <UsersTable users={users} />
