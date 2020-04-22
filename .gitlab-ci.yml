@@ -12,6 +12,9 @@ cache:
   key: ${CI_COMMIT_REF_SLUG}
   paths:
     - node_modules/
+    
+testcache:
+  key: $Dummy
 
 variables:
   STAGING_DOMAIN: gitlab-course-staging.surge.sh
@@ -100,6 +103,8 @@ deploy production:
   script:
     - npm install --global surge
     - surge --project ./public --domain $PRODUCTION_DOMAIN
+    
+
 
 production tests:
   image: alpine
