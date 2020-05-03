@@ -106,6 +106,11 @@ const users = [
     fname: 'Gleb',
     lname: 'T',
     nickname: 'KMD'
+  },
+  {
+    fname: 'Esteban',
+    lname: 'Arias',
+    nickname: '@thiagonahuel'
   }
 ];
 
@@ -124,6 +129,7 @@ const IndexPage = () => (
     </div>
     <div>Some important words</div>
     <Link to="/page-2/">Go to page 2</Link>
+    <Link to="https://www.google.com/">Go to Google</Lnk>
   </Layout>
 )
 
