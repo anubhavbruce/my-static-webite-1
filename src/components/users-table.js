@@ -13,9 +13,9 @@ const userProfileLink = (nickname) => {
 const UsersTable = ({ users }) => (
   <table style={tableStyles}>
     <tr>
-      <th>First-Name</th>
-      <th>Last-Name</th>
-      <th>Gitlab User</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>GitLab User</th>
     </tr>
     <tbody>
       {
