@@ -39,7 +39,7 @@ const Layout = ({ children }) => (
             <div>Version: %%VERSION%%</div>
             © {new Date().getFullYear()}, Built with
             {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            <a href="https://www.gatsbyjs.org">Gatsby @ React Framework</a>
           </footer>
         </div>
       </>
