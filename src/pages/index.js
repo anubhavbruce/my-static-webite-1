@@ -52,7 +52,7 @@ const users = [
     lname: 'Holinka',
     nickname: '@artem.holinka'
   },
-    {
+  {
     fname: 'Aline',
     lname: 'Aline',
     nickname: '@aline.test'
@@ -71,7 +71,7 @@ const users = [
     fname: 'Juju',
     lname: 'Jpo',
     nickname: '@juju.test'
-  },  
+  },
   {
     fname: 'Lisa',
     lname: 'Zhu',
@@ -131,6 +131,11 @@ const users = [
     fname: 'Hector',
     lname: 'Contreras',
     nickname: '@hectorjcr'
+  },
+  {
+    fname: 'Charlie',
+    lname: 'Cianos',
+    nickname: '@ccianos'
   }
 ];
 
@@ -150,7 +155,7 @@ const IndexPage = () => (
     </div>
     <div>Some important words</div>
     <Link to="/page-2/">Go to page 2</Link>
-    <p><br/></p>           
+    <p><br /></p>
     <a href="https://www.google.com/">Go to Google</a>
   </Layout>
 )
