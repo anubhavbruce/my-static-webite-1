@@ -131,6 +131,11 @@ const users = [
     fname: 'Hector',
     lname: 'Contreras',
     nickname: '@hectorjcr'
+  },
+  {
+    fname: 'Henri',
+    lname: 'Dupont',
+    nickname: '@henridpt'
   }
 ];
 
@@ -149,6 +154,7 @@ const IndexPage = () => (
       <Image />
     </div>
     <div>Some important words</div>
+    <div>This is my new page</div>
     <Link to="/page-2/">Go to page 2</Link>
     <p><br/></p>           
     <a href="https://www.google.com/">Go to Google</a>
