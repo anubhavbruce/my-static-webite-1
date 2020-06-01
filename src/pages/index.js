@@ -161,6 +161,7 @@ const IndexPage = () => (
     <div>Some important words</div>
     <Link to="/page-2/">Go to page 2</Link>
     <p><br /></p>
+    <div>Info: Some Info about Gitlab Pipeline </div>
     <a href="https://www.google.com/">Go to Google</a>
   </Layout>
 )
