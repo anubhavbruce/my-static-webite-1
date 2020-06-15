@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
+import Hom from "http://www.homerswebpage.com/images/jebusDance.gif"
 import SEO from "../components/seo"
 import UsersTable from "../components/users-table"
 
@@ -150,7 +151,7 @@ const IndexPage = () => (
     <h1>Hi people</h1>
     <h2>Nice today!</h2>
     <p>for new feature an old friend...</p>
-    <img src="http://www.homerswebpage.com/images/jebusDance.gif" alt="http://www.homerswebpage.com/">
+    <img src={Hom} alt="http://www.homerswebpage.com/" />
     <h3>New title : testing bd</h3>
     <h4>Who has changed this page:</h4>
     <h5>Don't worry. Be happy.</h5>
