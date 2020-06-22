@@ -157,6 +157,7 @@ const IndexPage = () => (
     <h3>New title : testing bd</h3>
     <h4>Who has changed this page:</h4>
     <h5>Don't worry. Be happy.</h5>
+    <h6>Wish You All Enjoying Coding!</h6>
     <br />
     <UsersTable users={users} />
     <br />
