@@ -1,14 +1,14 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  <a href="https://www.udemy.com/course/gitlab-ci-pipelines-ci-cd-and-devops-for-beginners/learn/practice/1118216?start=start-page#overview">
+    <img alt="Udemy" src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Valentin Despa Course Assignment #4 Project
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+This page is from the Gatsby.js project used in Valentin Despa's Gitlab CI course. Modify it how you want. Heck, lots of us have done that already.
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
