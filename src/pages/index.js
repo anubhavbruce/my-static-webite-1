@@ -164,6 +164,7 @@ const IndexPage = () => (
     <p>It was not me :) </p>
     <h5>Don't worry. Be happy.</h5>
     <h6>ANOTHER CHANGE BY ELC.</h6>
+    <h6>Sauerkrautwurst was here</h6>
     <br />
     <UsersTable users={users} />
     <br />
