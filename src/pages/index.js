@@ -166,6 +166,7 @@ const IndexPage = () => (
     <h2>Nice today!</h2>
     <h3>This is a other NEW TITLE</h3>
     <h4>Who has changed this page:</h4>
+    <p>Someone changed the title!</p>
     <p>It was not me :) </p>
     <h5>Don't worry. Be happy.</h5>
     <h6>ANOTHER CHANGE BY ELC.</h6>
