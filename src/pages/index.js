@@ -187,6 +187,7 @@ const IndexPage = () => (
     <p><br /></p>
     <div>Info: Some Info about Gitlab Pipeline </div>
     <a href="https://www.google.com/">Go to Google</a>
+    <div>Some test text to make a nice new paragraph!</div>
   </Layout>
 )
 
