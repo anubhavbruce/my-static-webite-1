@@ -151,6 +151,11 @@ const users = [
     fname: 'Josh',
     lname: 'Ua',
     nickname: '@joshh'
+  },
+  {
+    fname: 'Karim',
+    lname: 'Amrullah',
+    nickname: '@amrukarim'
   }
 ];
 
@@ -159,7 +164,7 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi people</h1>
     <h2>Nice today!</h2>
-    <h3>This is a other NEW TITLE</h3>
+    <h3>Try Indomie guys!!</h3>
     <h4>Who has changed this page:</h4>
     <p>It was not me :) </p>
     <h5>Don't worry. Be happy.</h5>
