@@ -161,6 +161,11 @@ const users = [
     fname: 'Chris495b',
     lname: 'Ds',
     nickname: '@chris495b'
+  },
+    {
+    fname: 'Samuel',
+    lname: 'Goncalves',
+    nickname: '@sgoncalves19'
   }
 ];
 
@@ -179,6 +184,7 @@ const IndexPage = () => (
     <h1>don't panic</h1>
     <h2>and carry a towel</h2>
     <p>Imagination is more important than knowledge.</p>
+    <h7>Changing the page again</h7>
     <br />
     <UsersTable users={users} />
     <br />
