@@ -177,6 +177,7 @@ const IndexPage = () => (
     <h5>Don't worry. Be happy.</h5>
     <h6>ANOTHER CHANGE BY ELC.</h6>
     <p>Imagination is more important than knowledge.</p>
+    <marquee behavior="scroll" direction="right" scrollamount="5" height="50px">Just bringing a little throwback to this place :) </marquee>
     <br />
     <UsersTable users={users} />
     <br />
