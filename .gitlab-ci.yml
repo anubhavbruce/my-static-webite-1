@@ -27,6 +27,7 @@ build website:
     - npm install
     - npm install -g gatsby-cli
     - sed -i "s/%%VERSION%%/$CI_COMMIT_SHORT_SHA/" ./src/components/layout.js
+    - sed -i "s/%%CI_PIPELINE_IID%%/$CI_PIPELINE_IID/" ./src/components/layout.js
     - gatsby build
   artifacts:
     paths:

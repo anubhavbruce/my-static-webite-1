@@ -36,7 +36,7 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <footer>
-            <div>Version: %%VERSION%%</div>
+            <div>Version: %%VERSION%% from Pipeline %%CI_PIPELINE_IID%%</div>
             © {new Date().getFullYear()}, Built with
             {` `}
             <a href="https://www.gatsbyjs.org">Gatsby @ React Framework</a>
