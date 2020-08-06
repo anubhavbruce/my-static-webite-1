@@ -167,6 +167,11 @@ const users = [
     lname: 'Goncalves',
     nickname: '@sgoncalves19'
   }
+  {
+    fname: 'Todor',
+    lname: 'Ivanov',
+    nickname: '@windwalker78'
+  }
 ];
 
 const IndexPage = () => (
