@@ -60,11 +60,11 @@ deploy review:
     - merge_requests
   environment:
       name: review/$CI_COMMIT_REF_NAME
-      url: https://instazone-$CI_ENVIRONMENT_SLUG.surge.sh
+      url: https://boyzone-$CI_ENVIRONMENT_SLUG.surge.sh
       on_stop: stop review
   script:
     - npm install --global surge
-    - surge --project ./public --domain instazone-$CI_ENVIRONMENT_SLUG.surge.sh
+    - surge --project ./public --domain boyzone-$CI_ENVIRONMENT_SLUG.surge.sh
 
 stop review:
   stage: deploy review
@@ -74,7 +74,7 @@ stop review:
     GIT_STRATEGY: none
   script:
     - npm install --global surge
-    - surge teardown instazone-$CI_ENVIRONMENT_SLUG.surge.sh
+    - surge teardown boyzone-$CI_ENVIRONMENT_SLUG.surge.sh
   when: manual
   environment:
     name: review/$CI_COMMIT_REF_NAME
