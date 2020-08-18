@@ -175,6 +175,7 @@ const IndexPage = () => (
     <h1>Hi people</h1>
     <h2>Nice today!</h2>
     <h3>This is a other NEW TITLE</h3>
+    <h3>This is a other NEW TITLE added on August 18, 2020</h3>
     <h3>This is a new Pavo title</h3>
     <h3>This is another new ST title</h3>
     <h4>Who has changed this page:</h4>
