@@ -167,6 +167,11 @@ const users = [
     lname: 'Goncalves',
     nickname: '@sgoncalves19'
   }
+  {
+    fname: 'Ivan',
+    lname: 'Slavchev',
+    nickname: '@ivans'
+  }
 ];
 
 const IndexPage = () => (
@@ -193,6 +198,7 @@ const IndexPage = () => (
       <Image />
     </div>
     <div>Some important words here !!</div>
+    <div>A spliff a day keeps the troubles away!</div>
     <Link to="/page-2/">Go to page 2</Link>
     <p><br /></p>
     <div>Info: Some Info about Gitlab Pipeline </div>
