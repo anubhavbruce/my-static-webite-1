@@ -172,20 +172,8 @@ const users = [
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <h2>Nice today!</h2>
-    <h3>This is a other NEW TITLE</h3>
-    <h3>This is a new Pavo title</h3>
-    <h3>This is another new ST title</h3>
-    <h4>Who has changed this page:</h4>
-    <p>Someone changed the title!</p>
-    <p>It was not me :) </p>
-    <h5>Don't worry. Be happy.</h5>
-    <h6>ANOTHER CHANGE BY ELC.</h6>
-    <h1>don't panic</h1>
-    <h2>and carry a towel</h2>
-    <p>Imagination is more important than knowledge.</p>
-    <h7>Changing the page again</h7>
+    <h1>Modified Title Header</h1>
+    <h2>Sub-heading goes here!</h2>
     <br />
     <UsersTable users={users} />
     <br />
