@@ -1,0 +1,144 @@
+image: node #Cette image sera utilisée pour TOUS les jobs. Par défaut, Gitlab Runner n'a pas NODE, du coup il va le chercher dans le Docker HUB.
+#Cache : évite de faire npm install à chaque commit par le gitlab runner => GAIN DE PERFORMANCE
+#Bonne pratique : Mettre le cache en global
+
+stages:
+  - build
+  - test
+  - deploy review
+  - deploy staging
+  - deploy production
+  - production tests
+  - cache
+
+cache:
+  key: "${CI_COMMIT_REF_SLUG}" #référence à la branche master
+  paths:
+    - node_modules/
+  policy: pull #Télécharge les fichiers au début de l'exécution du job
+    
+update cache:
+  stage: cache
+  script:
+    - npm install
+    - schedules
+  cache:
+    key: "${CI_COMMIT_REF_SLUG}" #référence à la branche master
+    paths:
+      - node_modules/
+    policy: push #Télécharge les fichiers au début de l'exécution du job
+  only: #On va exécuter ce job uniquement quand on l'aura décidé sur l'iterface de Gitlab sous "Schedules"
+    - schedules 
+
+variables:
+  STAGING_DOMAIN: personalzone-staging.surge.sh
+  PRODUCTION_DOMAIN : personalzone.surge.sh
+
+build website:
+  stage: build
+  script:
+    - echo 
+    - npm install #installer les dépendances du dossier Node Modules
+    - npm install -g gatsby-cli #Installer gatsby
+    - gatsby build #génère les pages html/css/js
+    #sed = stream editor, outil de transformation de texte
+    #(-i = modifier sur le même fichier, s = substitute, g = global remplacement)
+    #La variable d'environnement %%VERSION%% se trouve dans le fichier index.html
+    - sed -i "s/%%VERSION%%/$CI_COMMIT_SHORT_SHA/" ./public/index.html
+  artifacts:
+    paths:
+      - ./public #Notre site qu'on veut déployer se trouve dans ce dossier
+  except: #On va exécuter ce job sauf durant les schedules définies sur l'iterface de Gitlab
+   - schedules
+
+test artifact:
+  image: alpine
+  cache: {} #On désactive le cache, on veut pas qu'il soit utilisé ici.
+  stage: test
+  script:
+    - grep -q "Gatsby" ./public/index.html
+  except:
+   - schedules   
+
+test website:
+  stage: test
+  script:
+    - npm install
+    - npm install -g gatsby-cli
+    - gatsby serve &
+    - sleep 3 #Pas une bonne pratique car peu importe la rapidité du serveur, on attendra 3 sec.
+    - curl "http://localhost:9000" | tac | tac | grep -q "Gatsby"
+  except:
+   - schedules
+
+deploy review:
+  stage: deploy review
+  only:
+    - merge_requests
+  environment:
+    name: review/$CI_COMMIT_REF_NAME
+    url: http://personalzone-$CI_ENVIRONMENT_SLUG.surge.sh
+    on_stop: stop review #quand tu t'arrêtes, tu lanceras ce job.
+  script:  
+    - npm install --global surge
+    - surge --project ./public --domain personalzone-$CI_ENVIRONMENT_SLUG.surge.sh
+
+stop review:
+  stage: deploy review
+  only:
+    - merge_requests
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - npm install --global surge
+    - surge teardown personalzone-$CI_ENVIRONMENT_SLUG.surge.sh #script d'arrêt de l'environnement pour surge
+  when:
+    manual #On supprime l'environnement dynamique quand on a fini de le montrer aux non-dev, une fois qu'on a merge ou supprimé la branche
+  environment:
+    name: review/$CI_COMMIT_REF_NAME
+    action: stop
+
+deploy staging:
+  stage: deploy staging
+  environment:
+    name: staging
+    url: http://$STAGING_DOMAIN
+  only:
+    - master #Ce job sera uniquement exécuté sur la branche "master"
+  cache: {} #On désactive le cache, on veut pas qu'il soit utilisé ici.
+  script:
+    - npm install --global surge
+    - surge --project ./public --domain http://$STAGING_DOMAIN #On référence le projet qu'on veut déployer
+  except: 
+   - schedules
+
+deploy production:
+  stage: deploy production
+  environment:
+    name: production
+    url: http://$PRODUCTION_DOMAIN
+  only:
+    - master #Ce job sera uniquement exécuté sur la branche "master"
+  #when: manual #Ce job se déclenchera si on clique manuellement sur le job à run (ici deploy production)
+  #Problématique du trigger manuel, les jobs suivants seront en rouge alors qu'ils devraient
+  #être désactivés (ici production tests)
+  #allow_failure: false #Bloque la pipeline entière tant que celle-ci n'est pas réussit
+  cache: {} #On désactive le cache, on veut pas qu'il soit utilisé ici.
+  before_script: 
+    - npm install --global surge
+  script:
+    - surge --project ./public --domain "http://$PRODUCTION_DOMAIN" #On référence le projet qu'on veut déployer
+
+production tests :
+  image: alpine
+  cache: {} #On désactive le cache, on veut pas qu'il soit utilisé ici.
+  stage: production tests
+  only:
+    - master #Ce job sera uniquement exécuté sur la branche "master"
+  script:
+    - apk add --no-cache curl
+    - curl -s "http://$PRODUCTION_DOMAIN" | grep "Gatsby"
+    - curl -s "http://$PRODUCTION_DOMAIN" | grep "$CI_COMMIT_SHORT_SHA"
+  except:
+   - schedules   
+
