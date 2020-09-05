@@ -166,6 +166,11 @@ const users = [
     fname: 'Samuel',
     lname: 'Goncalves',
     nickname: '@sgoncalves19'
+  },
+  {
+    fname: 'Vitalii',
+    lname: 'Savinov',
+    nickname: '@vitsavinov'
   }
 ];
 
@@ -174,6 +179,7 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi people</h1>
     <h2>Nice today!</h2>
+    <h2>And nice tomorrow!</h2>
     <h3>This is a other NEW TITLE</h3>
     <h3>This is a other NEW TITLE added on August 18, 2020</h3>
     <h3>This is a new Pavo title</h3>
