@@ -177,7 +177,7 @@ const users = [
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
+    <h1>Hello people of the world!</h1>
     <h2>Nice today!</h2>
     <h2>And nice tomorrow!</h2>
     <h3>This is a other NEW TITLE</h3>
