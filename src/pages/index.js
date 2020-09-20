@@ -194,6 +194,7 @@ const IndexPage = () => (
     <p>Imagination is more important than knowledge.</p>
     <h7>Changing the page again</h7>
     <h3>Daleeeeeeee Boca!!!</h3>
+    <p>John Lito B, <b>09-20-2020</b></p>
     <br />
     <UsersTable users={users} />
     <br />
