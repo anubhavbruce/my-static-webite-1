@@ -12,6 +12,7 @@ const NotFoundPage = () => (
     <p>Please note that this webpage is under construction so no suprise it does not work well</p>
     <div>Try another <a href="https://www.gitlab.com">link</a></div>
     <p>And never lose hope</p>
+    <p>Hm! I'm trying to build and run on my local but error occur all the screen. I think my hope is gone.</p>
   </Layout>
 )
 
