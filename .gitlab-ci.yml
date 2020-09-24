@@ -95,7 +95,7 @@ deploy production:
   stage: deploy production
   environment:
     name: production
-    url: $PRODUCTION_DOMAIN
+    url: http://$PRODUCTION_DOMAIN
   only:
     - master    
   script:
