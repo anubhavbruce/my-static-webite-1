@@ -8,176 +8,176 @@ import UsersTable from "../components/users-table"
 
 const users = [
   {
-    fname: 'Karel',
-    lname: 'Lujan',
-    nickname: '@kalujan'
+    fname: "Karel",
+    lname: "Lujan",
+    nickname: "@kalujan",
   },
   {
-    fname: 'Rocky',
-    lname: 'Balboa',
-    nickname: '@adrian'
+    fname: "Rocky",
+    lname: "Balboa",
+    nickname: "@adrian",
   },
   {
-    fname: 'Cameron',
-    lname: 'Smith',
-    nickname: '@camikaze'
+    fname: "Cameron",
+    lname: "Smith",
+    nickname: "@camikaze",
   },
   {
-    fname: 'Rachel',
-    lname: 'Smith',
-    nickname: '@rachel'
+    fname: "Rachel",
+    lname: "Smith",
+    nickname: "@rachel",
   },
   {
-    fname: 'Marcel',
-    lname: 'Marcel',
-    nickname: '@mvuijk'
+    fname: "Marcel",
+    lname: "Marcel",
+    nickname: "@mvuijk",
   },
   {
-    fname: 'Juan Carlos',
-    lname: 'Martinez',
-    nickname: '@jkmrto'
+    fname: "Juan Carlos",
+    lname: "Martinez",
+    nickname: "@jkmrto",
   },
   {
-    fname: 'Alejandro',
-    lname: 'Melo',
-    nickname: '@alxmlo'
+    fname: "Alejandro",
+    lname: "Melo",
+    nickname: "@alxmlo",
   },
   {
-    fname: 'Pedro',
-    lname: 'Capdevila',
-    nickname: '@pcapdevila'
+    fname: "Pedro",
+    lname: "Capdevila",
+    nickname: "@pcapdevila",
   },
   {
-    fname: 'Michel',
-    lname: 'Kreutner',
-    nickname: '@mik57'
+    fname: "Michel",
+    lname: "Kreutner",
+    nickname: "@mik57",
   },
   {
-    fname: 'Artem',
-    lname: 'Holinka',
-    nickname: '@artem.holinka'
+    fname: "Artem",
+    lname: "Holinka",
+    nickname: "@artem.holinka",
   },
   {
-    fname: 'Aline',
-    lname: 'Aline',
-    nickname: '@aline.test'
+    fname: "Aline",
+    lname: "Aline",
+    nickname: "@aline.test",
   },
   {
-    fname: 'abr',
-    lname: 'abr',
-    nickname: '@abr.test'
+    fname: "abr",
+    lname: "abr",
+    nickname: "@abr.test",
   },
   {
-    fname: 'Oleksandr',
-    lname: 'Panchenko',
-    nickname: '@fafko93'
+    fname: "Oleksandr",
+    lname: "Panchenko",
+    nickname: "@fafko93",
   },
   {
-    fname: 'Juju',
-    lname: 'Jpo',
-    nickname: '@juju.test'
+    fname: "Juju",
+    lname: "Jpo",
+    nickname: "@juju.test",
   },
   {
-    fname: 'Lisa',
-    lname: 'Zhu',
-    nickname: '@lzhu'
+    fname: "Lisa",
+    lname: "Zhu",
+    nickname: "@lzhu",
   },
   {
-    fname: 'Gokhan',
-    lname: 'Ugurel',
-    nickname: '@gugurel'
+    fname: "Gokhan",
+    lname: "Ugurel",
+    nickname: "@gugurel",
   },
   {
-    fname: 'Iurii',
-    lname: 'N',
-    nickname: '@iurii_n'
+    fname: "Iurii",
+    lname: "N",
+    nickname: "@iurii_n",
   },
   {
-    fname: 'Saif',
-    lname: 'Hussain',
-    nickname: '@SIHussain'
+    fname: "Saif",
+    lname: "Hussain",
+    nickname: "@SIHussain",
   },
   {
-    fname: 'Stuart',
-    lname: 'Felker',
-    nickname: '@stuartfe'
+    fname: "Stuart",
+    lname: "Felker",
+    nickname: "@stuartfe",
   },
   {
-    fname: 'Justin',
-    lname: 'Packer',
-    nickname: '@toasty87'
+    fname: "Justin",
+    lname: "Packer",
+    nickname: "@toasty87",
   },
   {
-    fname: 'Yavor',
-    lname: 'Ganchev',
-    nickname: '@yganchev'
+    fname: "Yavor",
+    lname: "Ganchev",
+    nickname: "@yganchev",
   },
   {
-    fname: 'Gleb',
-    lname: 'T',
-    nickname: 'KMD'
+    fname: "Gleb",
+    lname: "T",
+    nickname: "KMD",
   },
   {
-    fname: 'Esteban',
-    lname: 'Arias',
-    nickname: '@thiagonahuel'
+    fname: "Esteban",
+    lname: "Arias",
+    nickname: "@thiagonahuel",
   },
   {
-    fname: 'Miguel',
-    lname: 'Simoni',
-    nickname: '@miguelsimoni'
+    fname: "Miguel",
+    lname: "Simoni",
+    nickname: "@miguelsimoni",
   },
   {
-    fname: 'Anaïs',
-    lname: 'Pignet',
-    nickname: '@thebadscarecrow'
+    fname: "Anaïs",
+    lname: "Pignet",
+    nickname: "@thebadscarecrow",
   },
   {
-    fname: 'Hector',
-    lname: 'Contreras',
-    nickname: '@hectorjcr'
+    fname: "Hector",
+    lname: "Contreras",
+    nickname: "@hectorjcr",
   },
   {
-    fname: 'Charlie',
-    lname: 'Cianos',
-    nickname: '@ccianos'
+    fname: "Charlie",
+    lname: "Cianos",
+    nickname: "@ccianos",
   },
   {
-    fname: 'Carlos',
-    lname: 'Veiga',
-    nickname: '@shlayer'
+    fname: "Carlos",
+    lname: "Veiga",
+    nickname: "@shlayer",
   },
   {
-    fname: 'Tim',
-    lname: 'Zogas',
-    nickname: '@tzogas'
+    fname: "Tim",
+    lname: "Zogas",
+    nickname: "@tzogas",
   },
   {
-    fname: 'Josh',
-    lname: 'Ua',
-    nickname: '@joshh'
+    fname: "Josh",
+    lname: "Ua",
+    nickname: "@joshh",
   },
   {
-    fname: 'Chris495b',
-    lname: 'Ds',
-    nickname: '@chris495b'
-  },
-    {
-    fname: 'Samuel',
-    lname: 'Goncalves',
-    nickname: '@sgoncalves19'
+    fname: "Chris495b",
+    lname: "Ds",
+    nickname: "@chris495b",
   },
   {
-    fname: 'Vitalii',
-    lname: 'Savinov',
-    nickname: '@vitsavinov'
-  }
-];
+    fname: "Samuel",
+    lname: "Goncalves",
+    nickname: "@sgoncalves19",
+  },
+  {
+    fname: "Vitalii",
+    lname: "Savinov",
+    nickname: "@vitsavinov",
+  },
+]
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people of the world!</h1>
+    <h1>This is a nice change! September 26 2020</h1>
     <h2>Nice today!</h2>
     <h2>And nice tomorrow!</h2>
     <h3>This is a other NEW TITLE</h3>
@@ -202,7 +202,9 @@ const IndexPage = () => (
     </div>
     <div>Some important words here !!</div>
     <Link to="/page-2/">Go to page 2</Link>
-    <p><br /></p>
+    <p>
+      <br />
+    </p>
     <div>Info: Some Info about Gitlab Pipeline </div>
     <a href="https://www.google.com/">Go to Google</a>
     <div>Some test text to make a nice new paragraph!</div>
