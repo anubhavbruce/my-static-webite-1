@@ -178,6 +178,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>This is a nice change! September 26 2020</h1>
+    <h1>This is a nice change! September 26 2020</h1>
     <h2>Nice today!</h2>
     <h2>And nice tomorrow!</h2>
     <h3>This is a other NEW TITLE</h3>
