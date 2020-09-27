@@ -13,9 +13,9 @@ const users = [
     nickname: '@kalujan'
   },
   {
-    fname: 'Rocky',
-    lname: 'Balboa',
-    nickname: '@adrian'
+    fname: 'Mart',
+    lname: 'Bastia',
+    nickname: '@campo'
   },
   {
     fname: 'Cameron',
