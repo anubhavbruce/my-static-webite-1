@@ -6,7 +6,7 @@ stages:
   - deploy review
   - deploy staging
   - deploy production
-  - production tests
+  - production test
 
 cache:
   key: ${CI_COMMIT_REF_SLUG}
@@ -104,7 +104,7 @@ deploy production:
 
 production tests:
   image: alpine
-  stage: production tests
+  stage: production test
   only:
     - master  
   script:
