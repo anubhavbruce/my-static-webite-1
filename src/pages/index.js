@@ -171,7 +171,7 @@ const users = [
     fname: 'Vitalii',
     lname: 'Savinov',
     nickname: '@vitsavinov'
-  }
+  },
 ];
 
 const IndexPage = () => (
@@ -194,6 +194,7 @@ const IndexPage = () => (
     <p>Imagination is more important than knowledge.</p>
     <h7>Changing the page again</h7>
     <h3>Daleeeeeeee Boca!!!</h3>
+    <p>Lorem ipsum blah blah blah...</p>
     <br />
     <UsersTable users={users} />
     <br />
