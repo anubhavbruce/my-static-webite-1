@@ -185,20 +185,20 @@ const IndexPage = () => (
     <h1>Hi people of the world!</h1>
     <h2>Nice today!</h2>
     <h2>And nice tomorrow!</h2>
-    <h3>This is a other NEW TITLE</h3>
-    <h3>This is a other NEW TITLE added on August 18, 2020</h3>
-    <h3>This is a new Pavo title</h3>
-    <h3>This is another new ST title</h3>
-    <h4>Who has changed this page:</h4>
+    <h3>This is a other DXC SITE</h3>
+    <h3>This is a other NEW TITLE added on 30 Sept 2020</h3>
+    <h3>This is a MY NAME IS MATTT</h3>
+    <h3>This is another HURRAY title</h3>
+    <h4>MATTHEW</h4>
     <p>Someone changed the title!</p>
-    <p>It was not me :) </p>
-    <h5>Don't worry. Be happy.</h5>
+    <p>It was me :) </p>
+    <h5>Don't worry. Be happier.</h5>
     <h6>ANOTHER CHANGE BY ELC.</h6>
     <h4>hi</h4>
     <h1>don't panic</h1>
-    <h2>and carry a towel</h2>
-    <p>Imagination is more important than knowledge.</p>
-    <h7>Changing the page again</h7>
+    <h2>and carry a camel</h2>
+    <p>Imagination is more important than knowledge. EINSTEIN</p>
+    <h7>Changing !!! again</h7>
     <h3>Daleeeeeeee Boca!!!</h3>
     <p>Arm Change</p>
     <br />
@@ -207,7 +207,7 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <div>Some important words here !!</div>
+    <div>Some  words!! here !!</div>
     <Link to="/page-2/">Go to page 2</Link>
     <p><br /></p>
     <div>Info: Some Info about Gitlab Pipeline </div>
