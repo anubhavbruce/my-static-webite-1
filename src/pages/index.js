@@ -183,36 +183,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi people of the world!</h1>
-    <h2>Nice today!</h2>
-    <h2>And nice tomorrow!</h2>
-    <h3>This is a other NEW TITLE</h3>
-    <h3>This is a other NEW TITLE added on August 18, 2020</h3>
-    <h3>This is a new Pavo title</h3>
-    <h3>This is another new ST title</h3>
-    <h4>Who has changed this page:</h4>
-    <p>Someone changed the title!</p>
-    <p>It was not me :) </p>
-    <h5>Don't worry. Be happy.</h5>
-    <h6>ANOTHER CHANGE BY ELC.</h6>
-    <h4>hi</h4>
-    <h1>don't panic</h1>
-    <h2>and carry a towel</h2>
-    <p>Imagination is more important than knowledge.</p>
-    <h7>Changing the page again</h7>
-    <h3>Daleeeeeeee Boca!!!</h3>
+    <p>A wise developer once told said, Fork N/A</p>
     <p>Arm Change</p>
     <br />
     <UsersTable users={users} />
-    <br />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <div>Some important words here !!</div>
-    <Link to="/page-2/">Go to page 2</Link>
-    <p><br /></p>
-    <div>Info: Some Info about Gitlab Pipeline </div>
-    <a href="https://www.google.com/">Go to Google</a>
-    <div>Some test text to make a nice new paragraph!</div>
   </Layout>
 )
 
