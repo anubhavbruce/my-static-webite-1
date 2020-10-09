@@ -189,6 +189,8 @@ const IndexPage = () => (
     <h3>This is a other NEW TITLE added on August 18, 2020</h3>
     <h3>This is a new Pavo title</h3>
     <h3>This is another new ST title</h3>
+    <h3>This is Madness</h3>
+    <img src="https://i.chzbgr.com/full/1130105600/h9637D311/this-is-sparta" alt="strong erotic man"></img>
     <h4>Who has changed this page:</h4>
     <p>Someone changed the title!</p>
     <p>It was not me :) </p>
