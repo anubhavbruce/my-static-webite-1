@@ -176,6 +176,11 @@ const users = [
     fname: 'Armando',
     lname: 'Ayala',
     nickname: '@armandoayala'
+  },
+  {
+    fname: 'William',
+    lname: 'Zaborowski',
+    nickname: '@DogiDogiDog'
   }
 ];
 
