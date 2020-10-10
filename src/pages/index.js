@@ -176,6 +176,11 @@ const users = [
     fname: 'Armando',
     lname: 'Ayala',
     nickname: '@armandoayala'
+  },
+  {
+    fname: 'Rodrigo',
+    lname: 'lanza',
+    nickname: '@roxcompeticion'
   }
 ];
 
@@ -199,6 +204,8 @@ const IndexPage = () => (
     <h2>and carry a towel</h2>
     <p>Imagination is more important than knowledge.</p>
     <h7>Changing the page again</h7>
+    <h8>Go deep Purple!</h8>
+    <h3>Daleeeeeeee Boca!!!</h3>
     <h3>Daleeeeeeee Boca!!!</h3>
     <p>Arm Change</p>
     <br />
