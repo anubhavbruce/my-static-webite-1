@@ -183,6 +183,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi people of the world!</h1>
+    <h2>CHanges made as part of assignment</h2>
     <p>A wise developer once told said, Fork N/A</p>
     <p>Arm Change</p>
     <br />
