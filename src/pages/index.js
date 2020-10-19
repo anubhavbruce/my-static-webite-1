@@ -181,11 +181,13 @@ const users = [
 
 const IndexPage = () => (
   <Layout>
+    <meta charset="UTF-8"></meta>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi people of the world! :)</h1>
     <h2>CHanges made as part of assignment</h2>
     <p>A wise developer once told said, Fork N/A</p>
     <p>Arm Change</p>
+    <p> 😒 🤒 🤧 👉 🍻 🤪 </p>
     <br />
     <UsersTable users={users} />
   </Layout>
