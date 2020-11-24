@@ -178,9 +178,9 @@ const users = [
     nickname: '@armandoayala'
   },
   {
-    fname: 'Achilleas',
-    lname: 'Lekkas',
-    nickname: '@achlekkas'
+    fname:'Jose',
+    lname: 'Mourinho',
+    nickname: '@TheSpecialOne'
   }
 ];
 
@@ -190,11 +190,14 @@ const IndexPage = () => (
     <h1>Hi people of the world!! :)</h1>
     <h1>fix4)</h1>
     <h2>Changes made as part of assignment</h2>
+    <h3>THIRD LEVEL OF TITLES</h3>
     <p>A wise developer once told said, Fork N/A</p>
     <p>I think I know that guy!</p>
     <p>Arm Change</p>
     <br />
     <h2>This is a brand new paragraph!</h2>
+    <p>Assignment 5 merge request, new paragraph</p>
+    <p>Being crazy isn't enough. - Dr. Seuss</p>
     <section><p>Here is a new information to be learn.</p></section>
     <UsersTable users={users} />
   </Layout>
