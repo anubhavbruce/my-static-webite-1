@@ -6,6 +6,7 @@
 </p>
 <h1 align="center">
   Valentin Despa Course Assignment #4 Project
+  HELLO FROM RUSSIA!
 </h1>
 
 This page is from the Gatsby.js project used in Valentin Despa's Gitlab CI course. Modify it how you want. Heck, lots of us have done that already.

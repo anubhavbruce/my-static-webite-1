@@ -201,6 +201,9 @@ const IndexPage = () => (
     <p>I think I know that guy!</p>
     <p>Arm Change</p>
     <p>This is my additional text</p>
+     <p>
+     <div>Let`s be friends in LINKEDIN<a href="https://www.linkedin.com/in/andrey-vsyakikh/>link</a></div>
+     </p>
     <br />
     <h2>This is a brand new paragraph!</h2>
     <p>Assignment 5 merge request, new paragraph</p>
