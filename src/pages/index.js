@@ -8,6 +8,11 @@ import UsersTable from "../components/users-table"
 
 const users = [
   {
+    fname: 'Bob',
+    lname: 'Lim',
+    nickname: '@Boblin'
+  },
+  {
     fname: 'Karel',
     lname: 'Lujan',
     nickname: '@kalujan'
