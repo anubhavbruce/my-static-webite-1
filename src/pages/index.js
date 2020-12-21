@@ -212,6 +212,7 @@ const IndexPage = () => (
     <p>Assignment 5 merge request, new paragraph</p>
     <p>Being crazy isn't enough. - Dr. Seuss</p>
     <p>Greetings from Germany :)</p>
+    <p>Seasons greetings from Germany ;-)</p>
     <section><p>Here is a new information to be learn.</p></section>
     <UsersTable users={users} />
   </Layout>
