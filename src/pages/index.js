@@ -167,7 +167,7 @@ const users = [
     lname: 'Ds',
     nickname: '@chris495b'
   },
-    {
+  {
     fname: 'Samuel',
     lname: 'Goncalves',
     nickname: '@sgoncalves19'
@@ -183,12 +183,12 @@ const users = [
     nickname: '@armandoayala'
   },
   {
-    fname:'Jose',
+    fname: 'Jose',
     lname: 'Mourinho',
     nickname: '@TheSpecialOne'
   },
   {
-    fname:'Chris', 
+    fname: 'Chris',
     lname: 'Tian',
     nickname: '@seranxx'
   }
@@ -212,6 +212,7 @@ const IndexPage = () => (
     <p>Assignment 5 merge request, new paragraph</p>
     <p>Being crazy isn't enough. - Dr. Seuss</p>
     <p>Greetings from Germany :)</p>
+    <p>Merry Chrismas form Germany :-)</p>
     <section><p>Here is a new information to be learn.</p></section>
     <UsersTable users={users} />
   </Layout>
