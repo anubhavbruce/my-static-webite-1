@@ -191,6 +191,11 @@ const users = [
     fname:'Chris', 
     lname: 'Tian',
     nickname: '@seranxx'
+  },
+  {
+    fname:'Andra', 
+    lname: 'L',
+    nickname: '@andy'
   }
 ];
 
@@ -207,6 +212,7 @@ const IndexPage = () => (
     <p>I think I know that guy!</p>
     <p>Arm Change</p>
     <p>This is my additional text</p>
+    <p>This is new additional text</p>
     <br />
     <h2>This is a brand new paragraph!</h2>
     <p>Assignment 5 merge request, new paragraph</p>
