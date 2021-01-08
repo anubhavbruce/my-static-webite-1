@@ -191,6 +191,11 @@ const users = [
     fname:'Chris', 
     lname: 'Tian',
     nickname: '@seranxx'
+  },
+  {
+    fname: 'Kyle',
+    lname: 'Higginbotham',
+    nickname: 'Higgy G'
   }
 ];
 
@@ -213,6 +218,7 @@ const IndexPage = () => (
     <p>Being crazy isn't enough. - Dr. Seuss</p>
     <p>Greetings from Germany :) and from Italy :) :)</p>
     <p>Seasons greetings from Germany ;-)</p>
+    <p>Greetings from Memphis, TN, USA :)</p>
     <section><p>Here is a new information to be learn.</p></section>
     <UsersTable users={users} />
   </Layout>
