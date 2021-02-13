@@ -204,6 +204,7 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi people of the world!! :)</h1>
     <p>Welcome to the best GITLAB CI course in the World!.</p>
+    <p>Welcome from Israel.</p>
     <h1>fix4)</h1>
     <h2>Changes made as part of assignment</h2>
     <h3>THIRD LEVEL OF TITLES</h3>
