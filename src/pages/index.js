@@ -202,30 +202,8 @@ const users = [
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people of the world!! :)</h1>
-    <p>Welcome to the best GITLAB CI course in the World!.</p>
-    <p>Welcome from Israel.</p>
-    <h1>fix4)</h1>
-    <h2>Changes made as part of assignment</h2>
-    <h3>THIRD LEVEL OF TITLES</h3>
-    <h4>FOURTH LEVEL OF TITLES</h4>
-    <p>A wise developer once told said, Fork N/A</p>
-    <p>I think I know that guy!</p>
-    <p>Arm Change</p>
-    <p>This is my additional text</p>
-    <br />
-    <h2>This is a brand new paragraph!</h2>
-    <p>Assignment 5 merge request, new paragraph</p>
-    <p>Being crazy isn't enough. - Dr. Seuss</p>
-    <p>Greetings from Germany :) and from Italy :) :)</p>
-    <p>Seasons greetings from Germany ;-)</p>
-    <p>Greetings from Spain :) and from Gibraltar :) :)</p>
-    <p>Greetings from Belarus :)</p>
-    <p>Greetings from United States!</p>
-    <p>##################</p>
-    <p>HI FROM SSSWAKE :)</p>
-    <p>##################</p>
-    <section><p>Here is a new information to be learn.</p></section>
+    <h1>Hello everyone!</h1>
+    <p>Greetings from Romania! :)</p>
     <UsersTable users={users} />
   </Layout>
 )
