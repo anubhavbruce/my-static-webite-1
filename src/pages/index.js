@@ -214,6 +214,7 @@ const IndexPage = () => (
     <p>Arm Change</p>
     <p>This is my additional text</p>
     <br />
+    <h1> A new bit title in the middle of the page by SAM </h1>
     <h2>This is a brand new paragraph!</h2>
     <p>Assignment 5 merge request, new paragraph</p>
     <p>Being crazy isn't enough. - Dr. Seuss</p>
