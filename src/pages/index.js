@@ -197,6 +197,11 @@ const users = [
     lname: 'Khitrov',
     nickname: '@khitrov.maks'
   }
+  {
+    fname:'Sam',
+    lname: 'Morton',
+    nickname: 'S_Morton'
+  }
 ];
 
 const IndexPage = () => (
@@ -214,7 +219,6 @@ const IndexPage = () => (
     <p>Arm Change</p>
     <p>This is my additional text</p>
     <br />
-    <h1> A new bit title in the middle of the page by SAM </h1>
     <h2>This is a brand new paragraph!</h2>
     <p>Assignment 5 merge request, new paragraph</p>
     <p>Being crazy isn't enough. - Dr. Seuss</p>
@@ -223,6 +227,7 @@ const IndexPage = () => (
     <p>Greetings from Spain :) and from Gibraltar :) :)</p>
     <p>Greetings from Belarus :)</p>
     <p>Greetings from United States!</p>
+    <p> Hello from the middle of nowhere </p>
     <p>##################</p>
     <p>HI FROM SSSWAKE :)</p>
     <p>##################</p>
