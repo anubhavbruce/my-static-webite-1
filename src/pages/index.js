@@ -200,7 +200,7 @@ const users = [
   {
     fname:'Sam',
     lname: 'Morton',
-    nickname: 'S_Morton'
+    nickname: '@SMorton'
   }
 ];
 
