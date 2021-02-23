@@ -16,6 +16,7 @@ cache:
 variables:
   STAGING_DOMAIN: gitlab-course-staging.surge.sh
   PRODUCTION_DOMAIN: gitlab-course.surge.sh
+  AUTHOR_NAME: ShanMorton
 
 build website:
   stage: build
