@@ -196,7 +196,7 @@ const users = [
     fname:'Maksim',
     lname: 'Khitrov',
     nickname: '@khitrov.maks'
-  }
+  },
   {
     fname:'Sam',
     lname: 'Morton',
