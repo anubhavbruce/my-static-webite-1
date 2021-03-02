@@ -1,4 +1,4 @@
-image: node:12
+image: node:10
 
 stages:
   - build
@@ -54,7 +54,7 @@ test website:
     - npm install
     - npm install -g gatsby-cli
     - gatsby serve &
-    - sleep 15
+    - sleep 3
     - curl "http://localhost:9000" | tac | tac | grep -q "Gatsby"
 
 deploy review:
