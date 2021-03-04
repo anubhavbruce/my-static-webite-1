@@ -218,6 +218,7 @@ const IndexPage = () => (
     <h2>This is a brand new paragraph!</h2>
     <p>Assignment 5 merge request, new paragraph</p>
     <p>Being crazy isn't enough. - Dr. Seuss</p>
+    <p>Yes, we can. - Mahatma Gandhi</p>
     <p>Greetings from Germany :) and from Italy :) :)</p>
     <p>Seasons greetings from Germany ;-)</p>
     <p>Greetings from Spain :) and from Gibraltar :) :)</p>
