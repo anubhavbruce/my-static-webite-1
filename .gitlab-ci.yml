@@ -26,7 +26,7 @@ build website:
     - echo $CI_COMMIT_SHORT_SHA
     - npm install
     - npm cache clean -f
-    - npm install -g n stable
+    - npm install -g n latest
     - npm install -g gatsby-cli
     - sed -i "s/%%VERSION%%/$CI_COMMIT_SHORT_SHA/" ./src/components/layout.js
     - sed -i "s/%%CI_PIPELINE_IID%%/$CI_PIPELINE_IID/" ./src/components/layout.js
@@ -55,7 +55,7 @@ test website:
   script:
     - npm install
     - npm cache clean -f
-    - npm install -g n stable
+    - npm install -g n latest
     - npm install -g gatsby-cli
     - gatsby serve &
     - sleep 3
