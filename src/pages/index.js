@@ -196,6 +196,11 @@ const users = [
     fname:'Maksim',
     lname: 'Khitrov',
     nickname: '@khitrov.maks'
+  },
+  {
+    fname:'Ola',
+    lname: 'S',
+    nickname: '@sidorowicz-aleksandra'
   }
 ];
 
@@ -226,6 +231,7 @@ const IndexPage = () => (
     <p>Greetings from United States!</p>
     <p>Greetings from a cloudy day in Santiago, Chile</p>
     <p>Greetings from Luxembourg</p>
+    <p>Greetings from Poland</p>
     <p>##################</p>
     <p>HI FROM SSSWAKE :)</p>
     <p>##################</p>
