@@ -204,6 +204,7 @@ const IndexPage = () => (
     <meta charset="UTF-8"></meta>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi people of the world!! :)</h1>
+	<p>Greetings From Planet Earth</p>
     <p>Welcome to the best GITLAB CI course in the World!.</p>
     <p>Welcome from Israel.</p>
     <h1>fix4)</h1>
@@ -222,6 +223,7 @@ const IndexPage = () => (
     <p>Seasons greetings from Germany ;-)</p>
     <p>Greetings from Spain :) and from Gibraltar :) :)</p>
     <p>Greetings from Belarus :)</p>
+    <p>Greetings from Romania :)</p>
     <p>Greetings from United States!</p>
     <p>Greetings from a cloudy day in Santiago, Chile</p>
     <p>Greetings from France</p>
