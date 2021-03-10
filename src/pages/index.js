@@ -201,6 +201,7 @@ const users = [
 
 const IndexPage = () => (
   <Layout>
+    <meta charset="UTF-8"></meta>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi people of the world!! :)</h1>
     <p>Welcome to the best GITLAB CI course in the World!.</p>
