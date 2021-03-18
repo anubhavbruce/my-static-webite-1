@@ -211,7 +211,12 @@ const users = [
     fname:'Gangadhar',
     lname: 'Hariharan',
     nickname: '@ganga'
-  }  
+  },
+  {
+    fname:'Sander',
+    lname: 'B',
+    nickname: '@null'
+  }    
 ];
 
 const IndexPage = () => (
