@@ -206,6 +206,11 @@ const users = [
     fname:'Gangadhar',
     lname: 'Hariharan',
     nickname: '@ganga'
+  }
+  {
+    fname:'Raj',
+    lname: 'Chenna',
+    nickname: '@rchenna'
   }  
 ];
 
