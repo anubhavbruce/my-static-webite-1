@@ -14,7 +14,7 @@ const UsersTable = ({ users }) => (
   <table style={tableStyles}>
     <tr>
       <th>First Name</th>
-      <th>Last Name</th>
+      <th>Last Name if any</th>
       <th>GitLab User</th>
     </tr>
     <tbody>
