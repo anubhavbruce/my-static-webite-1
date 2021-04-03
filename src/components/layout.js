@@ -41,6 +41,7 @@ const Layout = ({ children }) => (
             {` `}
             <a href="https://www.gatsbyjs.org">Gatsby @ React Framework</a>
             <p>Powered by students</p>
+            <p>HeyHo</p>
           </footer>
         </div>
       </>
