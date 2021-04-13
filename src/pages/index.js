@@ -188,7 +188,7 @@ const users = [
     nickname: '@TheSpecialOne'
   },
   {
-    fname:'Chris', 
+    fname:'Chris',
     lname: 'Tian',
     nickname: '@seranxx'
   },
@@ -216,7 +216,13 @@ const users = [
     fname:'Sander',
     lname: 'B',
     nickname: '@null'
-  }    
+  },
+  {
+    fname:'Lucas',
+    lname: 'Mendes',
+    nickname: '@lbmendes'
+  }
+
 ];
 
 const IndexPage = () => (
@@ -237,7 +243,7 @@ const IndexPage = () => (
     <br />
     <h2>This is a brand new paragraph!</h2>
     <p>Assignment 5 merge request, new paragraph</p>
-    <p>Being crazy isn't enough. - Dr. Seuss</p>
+    <p>Being crazy isnt enough. - Dr. Seuss</p>
     <p>Greetings from Germany :) and from Italy :) :)</p>
     <p>Seasons greetings from Germany ;-)</p>
     <p>Greetings from Spain :) and from Gibraltar :) :)</p>
@@ -249,7 +255,7 @@ const IndexPage = () => (
     <p>Greetings from Poland</p>
     <p>Greetings from India</p>
     <p>Greetings from Berlin!</p>
-    <p>Greetings from Ermelo!!</p>	
+    <p>Greetings from Ermelo!!</p>
     <p>##################</p>
     <p>HI FROM SSSWAKE :)</p>
     <p>##################</p>
@@ -257,6 +263,7 @@ const IndexPage = () => (
     <p>Greetings from Colombia!</p>
     <p>Hello everyone! Greetings from Costa Rica!</p>
     <p>Greetings from North America</p>
+    <p>Hello my friend, stay awhile and listen.</p>
     <section><p>Here is a new information to be learn.</p></section>
     <UsersTable users={users} />
   </Layout>
