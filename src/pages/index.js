@@ -245,6 +245,7 @@ const IndexPage = () => (
     <p>Assignment 5 merge request, new paragraph</p>
     <p>Being crazy isnt enough. - Dr. Seuss</p>
     <p>Greetings from Germany :) and from Italy :) :)</p>
+	<p>Greeting from all Slavs!</p>
     <p>Seasons greetings from Germany ;-)</p>
     <p>Greetings from Spain :) and from Gibraltar :) :)</p>
     <p>Greetings from Belarus :)</p>
