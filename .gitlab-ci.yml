@@ -13,7 +13,7 @@ cache:
   paths:
     - node_modules/
 
-variables:
+variables:  
   STAGING_DOMAIN: gitlab-course-staging.surge.sh
   PRODUCTION_DOMAIN: gitlab-course.surge.sh
 
@@ -112,5 +112,6 @@ production tests:
     - master  
   script:
     - apk add --no-cache curl
+    - sleep 10
     - curl -s "https://$PRODUCTION_DOMAIN" | tac | tac | grep -q "Hi people"
     - curl -s "https://$PRODUCTION_DOMAIN" | tac | tac | grep -q "$CI_COMMIT_SHORT_SHA"
