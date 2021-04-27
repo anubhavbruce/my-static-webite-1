@@ -26,6 +26,7 @@ audio,
 canvas,
 progress,
 video {
+  color: red;
   display: inline-block;
 }
 audio:not([controls]) {
