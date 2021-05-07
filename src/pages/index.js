@@ -281,6 +281,7 @@ const IndexPage = () => (
     <p>Hello my friend, stay awhile and listen.</p>
     <p>it is me, ur birdie</p>
     <section><p>Here is a new information to be learn.</p></section>
+    <p title="Hello :)">Greeting from Chile!</p>
     <UsersTable users={users} />
   </Layout>
 )
