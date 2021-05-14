@@ -9,8 +9,9 @@ const SecondPage = () => (
     <SEO title="Useful life hacks" />
     <h1>Hi from the second page</h1>
     <h2>Welcome to page 2</h2>
-    <p>Complete the page body here</p>	
+    <p>Complete the page body here</p>
     <p>Don&apos;t forget to wash your hands with soap.</p>
+    <p>This is a small change.</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
