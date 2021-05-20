@@ -227,6 +227,11 @@ const users = [
     lname: 'Mendes',
     nickname: '@lbmendes'
   }
+  {
+    fname:'Marouan',
+    lname: 'Shuboul',
+    nickname: '@mar'
+  }
 
 ];
 
@@ -275,6 +280,7 @@ const IndexPage = () => (
     <p>Greetings from sunny Manchester, UK</p>
     <p>Hello my friend, stay awhile and listen.</p>
     <section><p>Here is a new information to be learn.</p></section>
+    <p>Greetings from the United States</p>
     <UsersTable users={users} />
   </Layout>
 )
