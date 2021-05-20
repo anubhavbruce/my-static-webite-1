@@ -226,7 +226,7 @@ const users = [
     fname:'Lucas',
     lname: 'Mendes',
     nickname: '@lbmendes'
-  }
+  },
   {
     fname:'Marouan',
     lname: 'Shuboul',
