@@ -8,6 +8,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+header:hover {
+  filter: brightness(120%)
+}
 article,
 aside,
 details,
