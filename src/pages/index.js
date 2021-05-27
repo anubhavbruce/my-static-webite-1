@@ -281,6 +281,7 @@ const IndexPage = () => (
     <p> Greetings from Russia!</p>
     <p>Hello my friend, stay awhile and listen.</p>
     <p>it is me, ur birdie</p>
+    <p>Greetings from the Netherlands</p>
     <section><p>Here is a new information to be learn.</p></section>
     <p title="Hello :)">Greeting from Chile!</p>
     <h1> Hello From Khaja from Canada </h1>
