@@ -280,7 +280,7 @@ const IndexPage = () => (
     <p>Greetings from sunny Manchester, UK</p>
     <p>Hello my friend, stay awhile and listen.</p>
     <p>it is me, ur birdie</p>
-    <p>Greeting from Ukraine!</p>
+    <p>Greetings from Ukraine!</p>
     <section><p>Here is a new information to be learn.</p></section>
     <p title="Hello :)">Greeting from Chile!</p>
     <UsersTable users={users} />
