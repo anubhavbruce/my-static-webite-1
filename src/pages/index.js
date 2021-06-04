@@ -237,7 +237,7 @@ const users = [
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people of the world!! :)</h1>
+    <h1>Hi people of the world from India!! :)</h1>
   <p>Greetings From Moscow!!!</p>
   <p>Greetings From Serbia</p>
 	<p>Greetings From Planet Earth</p>
