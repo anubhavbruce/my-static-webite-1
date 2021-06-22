@@ -294,6 +294,8 @@ const IndexPage = () => (
     <h1> Hello From Khaja from Canada </h1>
     <p>Greetings from Luxembourg!</p>
     <h2> GREETINGS FROM BOLIVIA </h2>
+    <h3 id="greeting"></h3>
+    <Button onclick="document.getElementById('greeting').innerHTML = 'Greetings from Charlotte, North Carolina USA!!'">Greetings!!!</Button>    
     <UsersTable users={users} />
   </Layout>
 )
