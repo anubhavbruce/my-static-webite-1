@@ -258,6 +258,7 @@ const IndexPage = () => (
     <p>A wise developer once told said, Fork N/A</p>
     <p>I think I know that guy!</p>
     <p>Arm Change</p>
+    <p>An apple a day keeps the doctor away ;)</p>
     <p>This is my additional text</p>
     <br />
     <h2>This is a brand new paragraph!</h2>
@@ -278,6 +279,7 @@ const IndexPage = () => (
     <p>Greetings from Berlin!</p>
     <p>Greetings from Ermelo!!</p>
     <p>Greetings from Divonne les Bains, France</p>
+    <p>Greetings from France 🇫🇷 </p>
     <p>##################</p>
     <p>HI FROM SSSWAKE :)</p>
     <p>##################</p>
