@@ -299,6 +299,7 @@ const IndexPage = () => (
     <h1> GREETINGS FROM RUSSIA (again) </h1>
     <h1> GREETINGS FROM brazil 25/06/21</h1>
     <UsersTable users={users} />
+    <p>Greetings from Montreal!</p>
   </Layout>
 )
 
