@@ -82,7 +82,7 @@ Post production tests:
   cache: {}
   script:
     - apk add curl
-    - curl $PRD_DOMAIN | grep -q "save trees"
+    - curl $PRD_DOMAIN | grep -q "..........SAVE TREES.........."
     - echo $?
     - curl $PRD_DOMAIN | grep -q "$CI_COMMIT_SHORT_SHA"
     - echo $?
