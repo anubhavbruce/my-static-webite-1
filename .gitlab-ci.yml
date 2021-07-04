@@ -1,116 +1,102 @@
-image: node:14
+image: node
 
 stages:
+  - cache
   - build
-  - test
-  - deploy review
-  - deploy staging
-  - deploy production
-  - production tests
+  - build_test
+  - deploy_staging
+  - deploy_production
+  - post_production_test
+  - teardown
 
 cache:
   key: ${CI_COMMIT_REF_SLUG}
   paths:
-    - node_modules/
+    - ./node_modules/
+  policy: pull
+
+update cache:
+  stage: cache
+  script:
+    - npm install
+  cache:
+    key: $CI_COMMIT_REF_SLUG
+    paths:
+      - ./node_modules/
+    policy: push
 
 variables:
-  STAGING_DOMAIN: gitlab-course-staging.surge.sh
-  PRODUCTION_DOMAIN: gitlab-course.surge.sh
+  STG_DOMAIN: save_trees_staging.surge.sh
+  PRD_DOMAIN: save_trees.surge.sh
 
 build website:
   stage: build
-  only:
-    - master
-    - merge_requests
   script:
-    - echo $CI_COMMIT_SHORT_SHA
-    - npm install
     - npm install -g gatsby-cli
-    - sed -i "s/%%VERSION%%/$CI_COMMIT_SHORT_SHA/" ./src/components/layout.js
-    - sed -i "s/%%CI_PIPELINE_IID%%/$CI_PIPELINE_IID/" ./src/components/layout.js
-    - echo ${CI_MERGE_REQUEST_IID}
-    - echo ${CI_MERGE_REQUEST_ID}
-    - echo ${CI_MERGE_REQUEST_PROJECT_ID}
     - gatsby build
+    - echo $CI_COMMIT_SHORT_SHA
+    - sed -i "s/%%VERSION%%/$CI_COMMIT_SHORT_SHA/" ./public/index.html
   artifacts:
     paths:
       - ./public
 
 test artifact:
   image: alpine
-  stage: test
-  only:
-    - master
-    - merge_requests
+  cache: {}
+  stage: build_test
   script:
-    - grep -q "Gatsby" ./public/index.html
+    - grep -q "$CI_COMMIT_SHORT_SHA" ./public/index.html
+    - echo $?
 
 test website:
-  stage: test
-  only:
-    - master
-    - merge_requests
+  stage: build_test
   script:
-    - npm install
     - npm install -g gatsby-cli
     - gatsby serve &
-    - sleep 3
-    - curl "http://localhost:9000" | tac | tac | grep -q "Gatsby"
-
-deploy review:
-  stage: deploy review
-  only:
-    - merge_requests
-  environment:
-      name: review/$CI_COMMIT_REF_NAME
-      url: https://instazone-$CI_ENVIRONMENT_SLUG.surge.sh
-      on_stop: stop review
-  script:
-    - npm install --global surge
-    - surge --project ./public --domain instazone-$CI_ENVIRONMENT_SLUG.surge.sh
-
-stop review:
-  stage: deploy review
-  only:
-    - merge_requests
-  variables:
-    GIT_STRATEGY: none
-  script:
-    - npm install --global surge
-    - surge teardown instazone-$CI_ENVIRONMENT_SLUG.surge.sh
-  when: manual
-  environment:
-    name: review/$CI_COMMIT_REF_NAME
-    action: stop
+    - sleep 5
+    - curl "http://localhost:9000" | grep -q "save trees"
 
 deploy staging: 
-  stage: deploy staging
+  stage: deploy_staging
+  only:
+    - master
   environment:
     name: staging
-    url: http://$STAGING_DOMAIN
-  only:
-    - master  
+    url: http://$STG_DOMAIN 
   script:
-    - npm install --global surge
-    - surge --project ./public --domain $STAGING_DOMAIN
+    - npm install -g surge
+    - surge --project ./public --domain $STG_DOMAIN
 
 deploy production: 
-  stage: deploy production
+  stage: deploy_production
+  only:
+    - master
   environment:
     name: production
-    url: $PRODUCTION_DOMAIN
-  only:
-    - master    
+    url: http://$PRD_DOMAIN
   script:
-    - npm install --global surge
-    - surge --project ./public --domain $PRODUCTION_DOMAIN
+    - npm install -g surge
+    - surge --project ./public --domain $PRD_DOMAIN
 
-production tests:
+Post production tests:
   image: alpine
-  stage: production tests
+  stage: post_production_test
+  cache: {}
   only:
     - master  
   script:
-    - apk add --no-cache curl
-    - curl -s "https://$PRODUCTION_DOMAIN" | tac | tac | grep -q "Hi people"
-    - curl -s "https://$PRODUCTION_DOMAIN" | tac | tac | grep -q "$CI_COMMIT_SHORT_SHA"
+    - apk add curl
+    - curl $PRD_DOMAIN | grep -q "save trees"
+    - echo $?
+    - curl $PRD_DOMAIN | grep -q "$CI_COMMIT_SHORT_SHA"
+    - echo $?
+
+website teardown:
+  stage: teardown
+  only:
+    - master
+  when: manual
+  script:
+    - npm install -g surge
+    - surge teardown $STG_DOMAIN
+    - surge teardown $PRD_DOMAIN
