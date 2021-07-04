@@ -1,17 +1,14 @@
-import React from "react"
+import * as React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Useful life hacks" />
+    <Seo title="Page two" />
     <h1>Hi from the second page</h1>
-    <h2>Welcome to page 2</h2>
-    <h3>mayberts was here</h3>
-    <p>Complete the page body here</p>	
-    <p>Don&apos;t forget to wash your hands with soap.</p>
+    <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
