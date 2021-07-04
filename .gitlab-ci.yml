@@ -56,7 +56,7 @@ test website:
     - npm install -g gatsby-cli
     - gatsby serve &
     - sleep 5
-    - curl "http://localhost:9000" | grep -q "save trees"
+    - curl "http://localhost:9000" | grep -q "..........SAVE TREES.........."
 
 deploy staging: 
   stage: deploy_staging
