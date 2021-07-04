@@ -60,8 +60,6 @@ test website:
 
 deploy staging: 
   stage: deploy_staging
-  only:
-    - master
   environment:
     name: staging
     url: http://$STG_DOMAIN 
@@ -71,8 +69,6 @@ deploy staging:
 
 deploy production: 
   stage: deploy_production
-  only:
-    - master
   environment:
     name: production
     url: http://$PRD_DOMAIN
@@ -84,8 +80,6 @@ Post production tests:
   image: alpine
   stage: post_production_test
   cache: {}
-  only:
-    - master  
   script:
     - apk add curl
     - curl $PRD_DOMAIN | grep -q "save trees"
@@ -95,8 +89,6 @@ Post production tests:
 
 website teardown:
   stage: teardown
-  only:
-    - master
   when: manual
   script:
     - npm install -g surge
