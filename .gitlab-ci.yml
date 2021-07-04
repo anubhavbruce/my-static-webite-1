@@ -17,6 +17,8 @@ cache:
 
 update cache:
   stage: cache
+  only:
+    - schedule
   script:
     - npm install
   cache:
