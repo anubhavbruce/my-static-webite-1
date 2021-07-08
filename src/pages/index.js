@@ -237,6 +237,11 @@ const users = [
     lname: 'Pacheco',
     nickname: '@nelsoned'
   }
+  {
+    fname:'Vladimir',
+    lname: 'Hale',
+    nickname: '@vladah'
+  }
 ];
 
 const IndexPage = () => (
@@ -298,6 +303,7 @@ const IndexPage = () => (
     <h2> GREETINGS FROM BOLIVIA </h2>
     <h1> GREETINGS FROM RUSSIA (again) </h1>
     <h1> GREETINGS FROM brazil 25/06/21</h1>
+    <h1> From US With Love ... </h1>
     <UsersTable users={users} />
     <p>Greetings from Montreal!</p>
   </Layout>
