@@ -241,7 +241,7 @@ const users = [
     fname:'Vladimir',
     lname: 'Hale',
     nickname: '@vladah'
-  }
+  },
   {
     fname:'Cristian',
     lname: 'Chanci',
