@@ -315,10 +315,10 @@ const IndexPage = () => (
     <p>Cowabunga!!!</p>
     <h1> GREETINGS FROM RUSSIA (again) </h1>
     <h1> GREETINGS FROM brazil 25/06/21</h1>
-    <h1> GREETINGS FROM TURKEY 25/06/21</h1>
     <h1> From US With Love ... </h1>
     <UsersTable users={users} />
     <p>Greetings from Montreal!</p>
+    <h1> GREETINGS FROM TURKEY 02/08/21</h1>
   </Layout>
 )
 
