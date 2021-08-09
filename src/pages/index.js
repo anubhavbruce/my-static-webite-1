@@ -248,6 +248,11 @@ const users = [
     nickname: '@vladah'
   },
   {
+    fname:'Mo',
+    lname: 'Pishdar',
+    nickname: '@mohpish'
+  },
+  {
     fname:'Rui',
     lname: 'Duarte',
     nickname: '@P0w3rb0y'
@@ -319,6 +324,7 @@ const IndexPage = () => (
     <UsersTable users={users} />
     <p>Greetings from Montreal!</p>
     <h1> GREETINGS FROM TURKEY 02/08/21</h1>
+    <p>Greetings from Moscow, Russia!</p>
   </Layout>
 )
 
