@@ -246,19 +246,30 @@ const users = [
     fname:'Cristian',
     lname: 'Chanci',
     nickname: '@cchanci'
+  },
+  {
+    fname:'Mo',
+    lname: 'Pishdar',
+    nickname: '@mohpish'
+  },
+  {
+    fname:'Rui',
+    lname: 'Duarte',
+    nickname: '@P0w3rb0y'
   }
 ];
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <h1>Checkout my Mixcloud "https://www.mixcloud.com/rui_duarte/"</h1>
     <h1>Hi people of the world from India!! :)</h1>
   <p>Greetings from Wroclaw!!!!</p>
   <p>Greetings From Moscow!!!</p>
   <p>Greetings From Serbia</p>
 	<p>Greetings From Planet Earth</p>
   <p>Greetings from Mars</p>
-  <p>wellcome to awesome gitlab tutorial</p>
+  <p>welcome to awesome gitlab tutorial</p>
     <p>Welcome to the best GITLAB CI course in the World!.</p>
     <p>Welcome from Israel.</p>
     <h1>fix4)</h1>
@@ -313,6 +324,7 @@ const IndexPage = () => (
     <h2> Colombians present! greetings from Medellin! Mr. Chanci </h2>
     <UsersTable users={users} />
     <p>Greetings from Montreal!</p>
+    <p>Greetings from Moscow, Russia!</p>
   </Layout>
 )
 
