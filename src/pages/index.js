@@ -327,6 +327,7 @@ const IndexPage = () => (
     <UsersTable users={users} />
     <p>Greetings from Montreal!</p>
     <p>Greetings from Moscow, Russia!</p>
+    <p>The lilies are particularly beautiful this time of year.  Would you agree?</p>
   </Layout>
 )
 
