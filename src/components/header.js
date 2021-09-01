@@ -39,4 +39,8 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
+<local-time datetime="2014-04-01T16:30:00-08:00">
+  April 1, 2014 4:30pm
+</local-time>
+
 export default Header

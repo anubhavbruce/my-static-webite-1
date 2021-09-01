@@ -26,6 +26,7 @@ build website:
     - echo $CI_COMMIT_SHORT_SHA
     - npm install
     - npm install -g gatsby-cli
+    - npm install @github/time-elements
     - sed -i "s/%%VERSION%%/$CI_COMMIT_SHORT_SHA/" ./src/components/layout.js
     - sed -i "s/%%CI_PIPELINE_IID%%/$CI_PIPELINE_IID/" ./src/components/layout.js
     - echo ${CI_MERGE_REQUEST_IID}
