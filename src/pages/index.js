@@ -263,6 +263,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Checkout my Mixcloud "https://www.mixcloud.com/rui_duarte/"</h1>
+    <p>This was added at <time datetime="20:00">20:00</time> and you'll be able to see it fully implemented at <time datetime="PT2H30M">20h 30m</time>.</p>
     <h1>Hi people of the world from India!! :)</h1>
   <p>Greetings from Wroclaw!!!!</p>
   <p>Greetings From Moscow!!!</p>
