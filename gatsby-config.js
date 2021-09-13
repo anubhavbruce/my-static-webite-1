@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `My new fancy website title`,
+    title: `My new fancy Hellow World website title`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
