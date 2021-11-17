@@ -288,6 +288,7 @@ const IndexPage = () => (
   <p>Greetings from Mars</p>
   <p>Greetings from Asbury Park</p>
   <p>Greetings from Lagos</p>
+  <p>Greetings from Elon Mars</p>
   <p>welcome to awesome gitlab tutorial</p>
     <p>Welcome to the best GITLAB CI course in the World!.</p>
     <p>Welcome from Israel.</p>
