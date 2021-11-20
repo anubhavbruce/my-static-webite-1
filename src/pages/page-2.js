@@ -12,6 +12,7 @@ const SecondPage = () => (
     <h3>mayberts was here</h3>
     <p>Complete the page body here</p>	
     <p>Don&apos;t forget to wash your hands with soap.</p>
+    <p>Life is good!</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
