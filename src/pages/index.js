@@ -304,6 +304,7 @@ const IndexPage = () => (
   <p>welcome to awesome gitlab tutorial</p>
     <p>Welcome to the best GITLAB CI course in the World!.</p>
     <p>Welcome from Israel.</p>
+    <p>Welcome from Russia.</p>
     <p>I am Powerful, I will Never Back Down</p>
     <h1>fix4)</h1>
     <h2>Changes made as part of assignment</h2>
