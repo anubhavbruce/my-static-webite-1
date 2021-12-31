@@ -291,6 +291,7 @@ const IndexPage = () => (
     <h1>Checkout my Mixcloud "https://www.mixcloud.com/rui_duarte/"</h1>
     <h1>Hi people of the world from India!! :)</h1>
   <p>Merry Christmas 2021 :P</p>
+  <p>Welcome to CI/CD Training 12/31/2021</p>
   <p>Greetings from Wroclaw!!!!</p>
   <p>Greetings From Lithuania</p>
   <p>Greetings From Moscow!!!</p>
