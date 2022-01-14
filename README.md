@@ -8,6 +8,8 @@
   Valentin Despa Course Assignment #4 Project
 </h1>
 
+This is my contribution to this repo
+
 Test
 This page is from the Gatsby.js project used in Valentin Despa's Gitlab CI course. Modify it how you want. Heck, lots of us have done that already.
 
