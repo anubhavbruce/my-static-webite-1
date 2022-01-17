@@ -373,6 +373,7 @@ const IndexPage = () => (
     <UsersTable users={users} />
     <p>Greetings from Montreal!</p>
     <p>Greetings from Moscow, Russia!</p>
+    <p>Greetings human beings!</p>
     <p>Greetings from Saint-Petersburg, Russia!</p>
     <p>Greetings from Australia!</p>
     <p>Greetings from Sydney!</p>
