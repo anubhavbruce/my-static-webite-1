@@ -385,6 +385,7 @@ const IndexPage = () => (
 	<p>Hi from Czech</p>
     <p>Greetings from Space!</p>
     <p>Hello from 2094 year</p>
+    <p>Glory to Valentin ! The master of CI \o/</p>
   </Layout>
 )
 
