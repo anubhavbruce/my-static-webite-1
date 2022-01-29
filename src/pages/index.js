@@ -394,6 +394,7 @@ const IndexPage = () => (
     visit Dresden, it is a beatiful city and Saxony Swiss is also a great for 
     taking pictures!
   </p>
+    <p>Hello also from Dresden!</p>
   </Layout>
 )
 
