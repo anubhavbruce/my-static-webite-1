@@ -395,6 +395,7 @@ const IndexPage = () => (
     taking pictures!
   </p>
     <p>Hello also from Dresden!</p>
+  <p>Kia Ora from Aoteoroa, New Zealand. Milk and cheese and honey and a little funny!</p>
   </Layout>
 )
 
