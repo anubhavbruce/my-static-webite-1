@@ -391,6 +391,7 @@ const IndexPage = () => (
     <p>Greetings from Space!</p>
     <p>Hello from 2094 year</p>
     <p>Glory to Valentin ! The master of CI \o/</p>
+    <p>Peace and support are so important values for the whole world and each person in particular</p>
   <p>
     Greeting from Dresden (Germany) in 2022. Hope you all had a good start 
     into the new year! I cannot wait for the year of the tiger! Also, you should 
