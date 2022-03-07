@@ -292,6 +292,7 @@ const users = [
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <h1>World Peace No Wars</h1>
     <h1>Chile el mejor pais se Chile</h1>
     <h1>SERBIA NOVAK DJOKOVIC</h1>
     <h1>Checkout my Mixcloud "https://www.mixcloud.com/rui_duarte/"</h1>
