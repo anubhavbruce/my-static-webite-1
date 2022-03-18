@@ -401,6 +401,7 @@ const IndexPage = () => (
   <p>*************************************************</p>
   <p>Hi from Portugal! :) I wish you all a nice 2022 !</p>
   <p>*************************************************</p>
+  <p>Greetings from India! Wish you all Happy Holi!</p>
   </Layout>
 )
 
