@@ -414,6 +414,7 @@ const IndexPage = () => (
 \__) |  (- (- |_ | | ) (_) _)   |  |  (_) |||   \__) (- |  ||| (_| | ) \/ 
                        _/                                              / 
   </p>
+  <p>Hello from Ukraine!</p>
   </Layout>
 )
 
