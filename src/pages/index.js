@@ -397,6 +397,7 @@ const IndexPage = () => (
     <p>Greetings from Tel-Aviv!</p>
     <p>Greetings from Moscow, I wish you all happiness, peace and health!!</p>
     <p>Greetings from India, I wish you all happiness, peace and health!!</p>
+    <p>Namaste from India, I wish you all happiness, peace and health!!</p>
     <p>Another greetings from Poland!</p>
     <p>You found a secret area</p>
     <p>Greetings from The USA! Happy Holidays!!</p>
@@ -406,9 +407,9 @@ const IndexPage = () => (
     <p>Glory to Valentin ! The master of CI \o/</p>
     <p>Peace and support are so important values for the whole world and each person in particular</p>
   <p>
-    Greeting from Dresden (Germany) in 2022. Hope you all had a good start 
-    into the new year! I cannot wait for the year of the tiger! Also, you should 
-    visit Dresden, it is a beatiful city and Saxony Swiss is also a great for 
+    Greeting from Dresden (Germany) in 2022. Hope you all had a good start
+    into the new year! I cannot wait for the year of the tiger! Also, you should
+    visit Dresden, it is a beatiful city and Saxony Swiss is also a great for
     taking pictures!
   </p>
     <p>Hello also from Dresden!</p>
@@ -416,10 +417,10 @@ const IndexPage = () => (
   <p>Hi from Portugal! :) I wish you all a nice 2022 !</p>
   <p>*************************************************</p>
   <p>
- __                              _               __                       
-/ _   _  _  _ |_ .  _   _   _   (_  _  _   _    / _   _  _  _   _   _     
-\__) |  (- (- |_ | | ) (_) _)   |  |  (_) |||   \__) (- |  ||| (_| | ) \/ 
-                       _/                                              / 
+ __                              _               __
+/ _   _  _  _ |_ .  _   _   _   (_  _  _   _    / _   _  _  _   _   _
+\__) |  (- (- |_ | | ) (_) _)   |  |  (_) |||   \__) (- |  ||| (_| | ) \/
+                       _/                                              /
   </p>
   <p>Hello from Ukraine!</p>
   <p>Greeting from Colombia! Greate practice</p>
