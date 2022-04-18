@@ -9,7 +9,7 @@
 </h1>
 
 Test
-This page is from the Gatsby.js project used in Valentin Despa's Gitlab CI course. Modify it how you want. Heck, lots of us have done that already.
+this page is from the Gatsby.js project used in Valentin Despa's Gitlab CI course. Modify it how you want. Heck, lots of us have done that already.
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
