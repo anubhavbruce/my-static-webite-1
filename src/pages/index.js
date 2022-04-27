@@ -422,6 +422,7 @@ const IndexPage = () => (
                        _/                                              / 
   </p>
   <p>Hello from Ukraine!</p>
+  <p>Greeting from Colombia! Greate practice</p>
   </Layout>
 )
 
