@@ -300,7 +300,7 @@ const users = [
   {
     fname:'Madeline',
     lname:'Scarlett',
-    nickname: '@madlivie'
+    nickname: '@madlivie' 
   }
 ];
 
