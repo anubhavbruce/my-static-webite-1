@@ -301,7 +301,12 @@ const users = [
     fname:'Sandzaja',
     lname:'Wielka_Lechia',
     nickname: '@slechia'
-  }
+  },
+  {
+    fname:'Denys',
+    lname:'Abramov',
+    nickname: '@denys.abramov.dev'
+  },
 ];
 
 const IndexPage = () => (
