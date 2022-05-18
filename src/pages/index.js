@@ -438,6 +438,12 @@ const IndexPage = () => (
   <p>Valentine you are awesome!</p>
   <p>Greeting from Colombia! Greate practice</p>
   <p>Greeting from Italy Turin city</p>
+  <p>
+ __                              _              
+/ _   _  _  _ |_ .  _   _   _   (_  _  _   _   | | |)      _       _   /_\  \/ 
+\__) |  (- (- |_ | | ) (_) _)   |  |  (_) |||  |_| |\ |_| (_) |_| (_) /   \  l
+                       _/                                 _/      _/   
+  </p>
   </Layout>
 )
 
