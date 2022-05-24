@@ -440,6 +440,7 @@ const IndexPage = () => (
   <p>Greeting from Italy Turin city</p>
   <p>This message will self destruct in 5 ... 4 ... 3 ...</p>
   <p>Greetings from Poland</p>
+  <p><i>Quidquid latine dictum sit, altum videtur</i></p>
   </Layout>
 )
 
