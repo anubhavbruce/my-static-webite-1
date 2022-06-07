@@ -36,7 +36,7 @@ test artifact:
     image: alpine
     stage: test
     script:
-        - grep-q "Gatsby" ./public/index.htm
+        - grep -q "Gatsby" ./public/index.htm
         
 test website:
     stage: test
