@@ -1,4 +1,4 @@
-image: note:10
+image: node:10
 
 stages:
     - build
