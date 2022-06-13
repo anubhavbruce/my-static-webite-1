@@ -22,7 +22,6 @@ build website:
     only:
         - master
         - merge_requests
-        - udemy
     script:
         - echo $CI_COMMIT_SHORT_SHA
         - npm install
@@ -52,7 +51,6 @@ deploy review:
     stage: deploy review
     only:
         - merge_requests
-        - udemy
     environment:
         name: review/$CI_COMMIT_REF_NAME
         url: https://instazone-$CI_ENVIRONMENT_SLUG.surge.sh
@@ -82,7 +80,6 @@ deploy staging:
         url: http://$STAGING_DOMAIN
     only:
         - master
-        - udemy
     script:
         - npm install --global surge
         - surge --project ./public --domain $STAGING_DOMAIN
