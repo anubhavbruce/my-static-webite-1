@@ -56,9 +56,22 @@ deploy review:
     environment:
         name: review/$CI_COMMIT_REF_NAME
         url: https://instazone-$CI_ENVIRONMENT_SLUG.surge.sh
+        on_stop: stop review
     script:
         - npm install --global surge
         - surge --project ./public --domain instazone-$CI_ENVIRONMENT_SLUG.surge.sh
+
+stop review:
+    stage: deploy review
+    variables:
+        GIT_STRATEGY: none #If set to none, it won't clone the repository
+    script:
+        - npm install --global surge
+        - surge teardown instazone-$CI_ENVIRONMENT_SLUG.surge.sh
+    when: manual
+    environment:
+        name: review/$CI_COMMIT_REF_NAME
+        action: stop
 
 deploy staging:
     stage: deploy staging
