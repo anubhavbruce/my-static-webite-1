@@ -63,6 +63,7 @@ deploy review:
 
 stop review:
     stage: deploy review
+    only: merge_requests
     variables:
         GIT_STRATEGY: none #If set to none, it won't clone the repository
     script:
