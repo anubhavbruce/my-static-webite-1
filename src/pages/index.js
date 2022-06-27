@@ -324,23 +324,23 @@ const IndexPage = () => (
     <h1>Checkout my Mixcloud "https://www.mixcloud.com/rui_duarte/"</h1>
     <h1>Hi people of the world from India!! :)</h1>
     <h2>PloPlu</h2>
-  <p>Greeting from India!!</p>
-  <p>Merry Christmas 2021 :P</p>
-  <p>Greetings From Egypt :D</p>
-  <p>Greetings from Wroclaw!!!!</p>
-  <p>Greetings From Lithuania</p>
-  <p>Greetings From Moscow!!!</p>
-  <p>Greetings From Serbia</p>
-	<p>Greetings From Planet Earth</p>
-  <p>Greetings From Ternopil</p>
-  <p>Greetings from Mars</p>
-  <p>Greetings from Asbury Park</p>
-  <p>Greetings from Lagos</p>
-  <p>Greetings from Turkey. Wish you a happy day!</p>
-  <p>Greetings from India!!!</p>
-  <p>Greetings from Burkina Faso</p>
-  <p>Greetings from 2022</p>
-  <p>welcome to awesome gitlab tutorial</p>
+    <p>Greeting from India!!</p>
+    <p>Merry Christmas 2021 :P</p>
+    <p>Greetings From Egypt :D</p>
+    <p>Greetings from Wroclaw!!!!</p>
+    <p>Greetings From Lithuania</p>
+    <p>Greetings From Moscow!!!</p>
+    <p>Greetings From Serbia</p>
+    <p>Greetings From Planet Earth</p>
+    <p>Greetings From Ternopil</p>
+    <p>Greetings from Mars</p>
+    <p>Greetings from Asbury Park</p>
+    <p>Greetings from Lagos</p>
+    <p>Greetings from Turkey. Wish you a happy day!</p>
+    <p>Greetings from India!!!</p>
+    <p>Greetings from Burkina Faso</p>
+    <p>Greetings from 2022</p>
+    <p>welcome to awesome gitlab tutorial</p>
     <p>Welcome to the best GITLAB CI course in the World!.</p>
     <p>Welcome from Israel.</p>
     <p>Welcome from Russia.</p>
@@ -359,7 +359,7 @@ const IndexPage = () => (
     <p>Assignment 5 merge request, new paragraph</p>
     <p>Being crazy isnt enough. - Dr. Seuss</p>
     <p>Greetings from Germany :) and from Italy :) :)</p>
-	<p>Greeting from all Slavs!</p>
+    <p>Greeting from all Slavs!</p>
     <p>Seasons greetings from Germany ;-)</p>
     <p>Greetings from Spain :) and from Gibraltar :) :)</p>
     <p>Greetings from Belarus :)</p>
@@ -419,35 +419,35 @@ const IndexPage = () => (
     <p>You found a secret area</p>
     <p>Greetings from The USA! Happy Holidays!!</p>
     <p>Greetings from Sofia, Bulgaria</p>
-	<p>Hi from Czech</p>
+    <p>Hi from Czech</p>
     <p>Greetings from Space!</p>
     <p>Hello from 2094 year</p>
     <p>Glory to Valentin ! The master of CI \o/</p>
     <p>Peace and support are so important values for the whole world and each person in particular</p>
-  <p>
-    Greeting from Dresden (Germany) in 2022. Hope you all had a good start
-    into the new year! I cannot wait for the year of the tiger! Also, you should
-    visit Dresden, it is a beatiful city and Saxony Swiss is also a great for
-    taking pictures!
-  </p>
+    <p>
+      Greeting from Dresden (Germany) in 2022. Hope you all had a good start
+      into the new year! I cannot wait for the year of the tiger! Also, you should
+      visit Dresden, it is a beatiful city and Saxony Swiss is also a great for
+      taking pictures!
+    </p>
     <p>Hello also from Dresden!</p>
-  <p>*************************************************</p>
-  <p>Hi from Portugal! :) I wish you all a nice 2022 !</p>
-  <p>*************************************************</p>
-  <p>
- __                              _               __
-/ _   _  _  _ |_ .  _   _   _   (_  _  _   _    / _   _  _  _   _   _
-\__) |  (- (- |_ | | ) (_) _)   |  |  (_) |||   \__) (- |  ||| (_| | ) \/
-                       _/                                              /
-  </p>
-  <p>Hello from Ukraine!</p>
-  <p>Valentin you are awesome!</p>
-  <p>Valentine you are awesome!</p>
-  <p>Greeting from Colombia! Greate practice</p>
-  <p>Greeting from Italy Turin city</p>
-  <p>This message will self destruct in 5 ... 4 ... 3 ...</p>
-  <p>Greeting from A Coruña, Spain</p>
-  <p><i>Quidquid latine dictum sit, altum videtur</i></p>
+    <p>*************************************************</p>
+    <p>Hi from Portugal! :) I wish you all a nice 2022 !</p>
+    <p>*************************************************</p>
+    <p>
+       __                              _               __
+      / _   _  _  _ |_ .  _   _   _   (_  _  _   _    / _   _  _  _   _   _
+      \__) |  (- (- |_ | | ) (_) _)   |  |  (_) |||   \__) (- |  ||| (_| | ) \/
+      x                      _/                                              /
+    </p>
+    <p>Hello from Ukraine!</p>
+    <p>Valentin you are awesome!</p>
+    <p>Valentine you are awesome!</p>
+    <p>Greeting from Colombia! Greate practice</p>
+    <p>Greeting from Italy Turin city</p>
+    <p>This message will self destruct in 5 ... 4 ... 3 ...</p>
+    <p>Greeting from A Coruña, Spain</p>
+    <p><i>Quidquid latine dictum sit, altum videtur</i></p>
   </Layout>
 )
 
