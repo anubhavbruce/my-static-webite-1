@@ -312,6 +312,11 @@ const users = [
     lname:'Abramov',
     nickname: '@denys.abramov.dev'
   },
+  {
+    fname:'Luca',
+    lname:'Pattocchio',
+    nickname: '@l.pattocchio'
+  },
 ];
 
 const IndexPage = () => (
@@ -450,6 +455,7 @@ const IndexPage = () => (
   <p>Luiz F Estivalet was here, greetings from Brazil, thanks for the course!</p>
   <p><i>Quidquid latine dictum sit, altum videtur</i></p>
     <p>Greetings from Singapore and also meow </p>
+  <p>Greetings from Italy</p>
   </Layout>
 )
 
