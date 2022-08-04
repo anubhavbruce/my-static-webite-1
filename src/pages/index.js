@@ -312,11 +312,17 @@ const users = [
     lname:'Abramov',
     nickname: '@denys.abramov.dev'
   },
+  {
+    fname:'Dmytro',
+    lname:'P',
+    nickname: '@dmytro.test'
+  }
 ];
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <h1>Glory to Ukraine</h1>
     <h1>Hello form SA</h1>
     <h1>Chile el mejor pais se Chile</h1>
     <h1>SERBIA NOVAK DJOKOVIC</h1>
