@@ -463,6 +463,7 @@ const IndexPage = () => (
   <p><i>Quidquid latine dictum sit, altum videtur</i></p>
     <p>Greetings from Singapore and also meow </p>
   <p>Greetings from Italy</p>
+  <p>Hello from Spain!</p>
   </Layout>
 )
 
