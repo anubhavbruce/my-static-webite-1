@@ -322,6 +322,11 @@ const users = [
     lname:'Pattocchio',
     nickname: '@l.pattocchio'
   },
+  {
+    fname:'Mario',
+    lname:'Guerrera',
+    nickname:'@amf.guerrera'
+  },
 ];
 
 const IndexPage = () => (
@@ -350,6 +355,7 @@ const IndexPage = () => (
   <p>Greetings from India!!!</p>
   <p>Greetings from Burkina Faso</p>
   <p>Greetings from 2022</p>
+  <p>Greetings from Mario Guerrera</p>
   <p>welcome to awesome gitlab tutorial</p>
     <p>Welcome to the best GITLAB CI course in the World!.</p>
     <p>Welcome from Israel.</p>
