@@ -8,6 +8,11 @@ import UsersTable from "../components/users-table"
 
 const users = [
   {
+    fname: 'Rafael',
+    lname: 'Lima',
+    nickname: '@rafael_leonardo_lima'
+  },
+  {
     fname: 'Hojae',
     lname: 'Son',
     nickname: '@hojae'
@@ -417,6 +422,7 @@ const IndexPage = () => (
     <p>Greetings from Tchaikovsky, Russia!</p>
     <p>Greetings from Australia!</p>
     <p>Greetings from Sydney!</p>
+    <p>Greetings from Canberra!</p>
     <p>Greetings from Tel-Aviv!</p>
     <p>Greetings from Moscow, I wish you all happiness, peace and health!!</p>
     <p>Greetings from India, I wish you all happiness, peace and health!!</p>
@@ -457,7 +463,8 @@ const IndexPage = () => (
   <p><i>Quidquid latine dictum sit, altum videtur</i></p>
     <p>Greetings from Singapore and also meow </p>
   <p>Greetings from Italy</p>
-  <p>Hello from India New-Delhi</>
+  <p>Hello from Spain!</p>
+  <p>Hello from India,Delhi</>
   </Layout>
 )
 
