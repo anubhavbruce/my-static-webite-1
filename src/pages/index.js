@@ -376,6 +376,7 @@ const IndexPage = () => (
     <p>Greetings from Germany :) and from Italy :) :)</p>
 	<p>Greeting from all Slavs!</p>
     <p>Seasons greetings from Germany ;-)</p>
+    <p>Hello from somewhere in the world</p>
     <p>Greetings from Spain :) and from Gibraltar :) :)</p>
     <p>Greetings from Belarus :)</p>
     <p>Greetings from India :D </p>
@@ -395,6 +396,7 @@ const IndexPage = () => (
     <p>Greetings From Chicago</p>
     <p>Greetings From Almaty, Kazakhstan!</p>
     <p>Greetings From Paris, France</p>
+    <p>Greetings From Toulouse, France</p>
     <p>##################</p>
     <p>HI FROM SSSWAKE :)</p>
     <p>##################</p>
@@ -470,6 +472,7 @@ const IndexPage = () => (
   <p>Greetings from Italy</p>
   <p>Hello from Spain!</p>
   <p>Hello from India,Delhi</p>
+  <p>Allo from Montreal!</p>
   </Layout>
 )
 
