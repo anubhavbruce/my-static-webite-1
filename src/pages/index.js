@@ -327,6 +327,11 @@ const users = [
     lname:'Valencia',
     nickname: '@robiwimarbu'
   },
+  {
+    fname:'Yuki',
+    lname:'Ichikawa',
+    nickname: '@Itchy'
+  },
 ];
 
 const IndexPage = () => (
@@ -438,6 +443,7 @@ const IndexPage = () => (
     <p>You found a secret area</p>
     <p>Greetings from The USA! Happy Holidays!!</p>
     <p>Greetings from Sofia, Bulgaria</p>
+    <p>Greetings from Tokyo, Japan!</p>
 	<p>Hi from Czech</p>
     <p>Greetings from Space!</p>
     <p>Hello from 2094 year</p>
