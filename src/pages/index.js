@@ -323,11 +323,6 @@ const users = [
     nickname: '@l.pattocchio'
   },
   {
-    fname:'Lucian',
-    lname:'Popa',
-    nickname: '@tranzistorul'
-  },
-  {
     fname:'Robin',
     lname:'Valencia',
     nickname: '@robiwimarbu'
