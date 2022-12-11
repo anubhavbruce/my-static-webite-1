@@ -323,6 +323,11 @@ const users = [
     nickname: '@l.pattocchio'
   },
   {
+    fname:'Lucian',
+    lname:'Popa',
+    nickname: '@tranzistorul'
+  },
+  {
     fname:'Robin',
     lname:'Valencia',
     nickname: '@robiwimarbu'
@@ -388,6 +393,7 @@ const IndexPage = () => (
     <p>Greetings from Belarus :)</p>
     <p>Greetings from India :D </p>
     <p>Greetings from Romania :)</p>
+    <p>Greetings from Romania 2.0</p>
     <p>Greetings from United States!</p>
     <p>Greetings from a cloudy day in Santiago, Chile</p>
     <p>Greetings from Luxembourg</p>
