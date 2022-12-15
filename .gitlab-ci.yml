@@ -66,6 +66,10 @@ deploy review:
       url: https://instazone-$CI_ENVIRONMENT_SLUG.surge.sh
       on_stop: stop review
   script:
+    - echo ${CI_COMMIT_REF_NAME}
+    - echo ${CI_ENVIRONMENT_SLUG}
+    - echo ${SURGE_LOGIN}
+    - echo ${SURGE_TOKEN}
     - npm install --global surge
     - surge --project ./public --domain instazone-$CI_ENVIRONMENT_SLUG.surge.sh
 
