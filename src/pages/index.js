@@ -7,6 +7,11 @@ import SEO from "../components/seo"
 import UsersTable from "../components/users-table"
 
 const users = [
+   {
+    fname: 'Francis',
+    lname: 'BarreKirubanandam',
+    nickname: '@FBK'
+  },
   {
     fname: 'Rafael',
     lname: 'Lima',
@@ -377,6 +382,7 @@ const IndexPage = () => (
   <p>Greetings from India!!!</p>
   <p>Greetings from Burkina Faso</p>
   <p>Greetings from 2022</p>
+  <p>Greetings from Dec 2022 by FBK</p>
   <p>welcome to awesome gitlab tutorial</p>
     <p>Welcome to the best GITLAB CI course in the World!.</p>
     <p>Welcome from Israel.</p>
@@ -497,6 +503,7 @@ const IndexPage = () => (
   <p>Greetings from Italy</p>
   <p>Hello from Spain!</p>
   <p>Hello from India,Delhi</p>
+  <p>Hello from India,Chennai dec 2022 by Francis Barre Kirubanandam</p>
   <p>Allo from Montreal!</p>
   <p>i like donuts so much.</p>
   <p>Cheers from Majorca, Spain!</p>
