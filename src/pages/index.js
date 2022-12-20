@@ -327,10 +327,17 @@ const users = [
     lname:'Valencia',
     nickname: '@robiwimarbu'
   },
+<<<<<<< HEAD
   {
     fname:'Yuki',
     lname:'Ichikawa',
     nickname: '@Itchy'
+=======
+   {
+    fname:'Vladimir',
+    lname:'Krastev',
+    nickname: '@vkr1stev'
+>>>>>>> d79c060 (Update index.js)
   },
 ];
 
@@ -444,6 +451,7 @@ const IndexPage = () => (
     <p>Another greetings from Poland!</p>
     <p>You found a secret area</p>
     <p>Greetings from The USA! Happy Holidays!!</p>
+    <p>Hello from Chicaho!</p>
     <p>Greetings from Sofia, Bulgaria</p>
     <p>Greetings from Tokyo, Japan!</p>
 	<p>Hi from Czech</p>
