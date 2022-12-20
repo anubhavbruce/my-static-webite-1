@@ -16,6 +16,7 @@ cache:
 variables:
   STAGING_DOMAIN: gitlab-course-staging.surge.sh
   PRODUCTION_DOMAIN: gitlab-course.surge.sh
+  STUDENT_NAME: Paul
 
 build website:
   stage: build
@@ -44,6 +45,7 @@ test artifact:
     - merge_requests
   script:
     - grep -q "Gatsby" ./public/index.html
+    - echo $STUDENT_NAME
 
 test website:
   stage: test
