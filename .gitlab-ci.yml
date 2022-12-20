@@ -53,9 +53,9 @@ test website:
     - merge_requests
   script:
     - npm install
-    - npm install -g gatsby-cli@4.24.0
+    - npm install -g gatsby-cli
     - gatsby serve &
-    - sleep 3
+    - sleep 5
     - curl "http://localhost:9000" | tac | tac | grep -q "Gatsby"
 
 deploy review:
