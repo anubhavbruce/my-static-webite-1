@@ -18,6 +18,11 @@ const users = [
     nickname: '@hojae'
   },
   {
+    fname: 'snehal',
+    lname: 'sable',
+    nickname: '@snehals'
+  },
+  {
     fname: 'Shakaal',
     lname: 'Dajjal',
     nickname: '@Shaktiman'
