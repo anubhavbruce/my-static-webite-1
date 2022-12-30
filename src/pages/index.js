@@ -18,6 +18,11 @@ const users = [
     nickname: '@hojae'
   },
   {
+    fname: 'snehal',
+    lname: 'sable',
+    nickname: '@snehals'
+  },
+  {
     fname: 'Shakaal',
     lname: 'Dajjal',
     nickname: '@Shaktiman'
@@ -337,6 +342,11 @@ const users = [
     lname: 'Bastos',
     nickname: '@abastos'
   },
+  {
+    fname:'Vladimir',
+    lname:'Krastev',
+    nickname: '@vkr1stev'
+  }
 ];
 
 const IndexPage = () => (
@@ -348,6 +358,7 @@ const IndexPage = () => (
     <h1>Michael Jackson was here</h1>
     <h1>Checkout my Mixcloud "https://www.mixcloud.com/rui_duarte/"</h1>
     <h1>Hi people of the world from India!! :)</h1>
+    <h1>Who will win the World Cup?</h1>
     <h2>PloPlu</h2>
   <p>Greeting from India!!</p>
   <p>Merry Christmas 2021 :P</p>
@@ -392,6 +403,7 @@ const IndexPage = () => (
     <p>Greetings from Belarus :)</p>
     <p>Greetings from India :D </p>
     <p>Greetings from Romania :)</p>
+    <p>Greetings from Romania 2.0</p>
     <p>Greetings from United States!</p>
     <p>Greetings from a cloudy day in Santiago, Chile</p>
     <p>Greetings from Luxembourg</p>
@@ -466,6 +478,7 @@ const IndexPage = () => (
   <p>Hi from Portugal! :) I wish you all a nice 2022 !</p>
   <p>*************************************************</p>
   <p>
+  <p>Hello ! Greetings from Brazil (29/10/2022)!</p>
  __                              _               __
 / _   _  _  _ |_ .  _   _   _   (_  _  _   _    / _   _  _  _   _   _
 \__) |  (- (- |_ | | ) (_) _)   |  |  (_) |||   \__) (- |  ||| (_| | ) \/
@@ -487,6 +500,7 @@ const IndexPage = () => (
   <p>Allo from Montreal!</p>
   <p>i like donuts so much.</p>
   <p>Cheers from Majorca, Spain!</p>
+  <p>Greetings from Finland!</p>
   </Layout>
 )
 
