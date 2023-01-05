@@ -7,6 +7,11 @@ import SEO from "../components/seo"
 import UsersTable from "../components/users-table"
 
 const users = [
+{
+    fname: 'Fabian ',
+    lname: 'Penaloza',
+    nickname: '@falpema'
+  },
   {
     fname: 'Rafael',
     lname: 'Lima',
