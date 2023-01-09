@@ -25,13 +25,12 @@ build website:
   script:
     - echo $CI_COMMIT_SHORT_SHA
     - npm install
-    - npm install -g gatsby-cli@4.24.0
     - sed -i "s/%%VERSION%%/$CI_COMMIT_SHORT_SHA/" ./src/components/layout.js
     - sed -i "s/%%CI_PIPELINE_IID%%/$CI_PIPELINE_IID/" ./src/components/layout.js
     - echo ${CI_MERGE_REQUEST_IID}
     - echo ${CI_MERGE_REQUEST_ID}
     - echo ${CI_MERGE_REQUEST_PROJECT_ID}
-    - gatsby build
+    - npm run build
   artifacts:
     paths:
       - ./public
@@ -52,8 +51,7 @@ test website:
     - merge_requests
   script:
     - npm install
-    - npm install -g gatsby-cli@4.24.0
-    - gatsby serve &
+    - npm run serve &
     - sleep 3
     - curl "http://localhost:9000" | tac | tac | grep -q "Gatsby"
 
@@ -66,8 +64,8 @@ deploy review:
       url: https://instazone-$CI_ENVIRONMENT_SLUG.surge.sh
       on_stop: stop review
   script:
-    - npm install --global surge
-    - surge --project ./public --domain instazone-$CI_ENVIRONMENT_SLUG.surge.sh
+    - npm install
+    - npm run deploy --project ./public --domain instazone-$CI_ENVIRONMENT_SLUG.surge.sh
 
 stop review:
   stage: deploy review
@@ -76,8 +74,8 @@ stop review:
   variables:
     GIT_STRATEGY: none
   script:
-    - npm install --global surge
-    - surge teardown instazone-$CI_ENVIRONMENT_SLUG.surge.sh
+    - npm install
+    - npm run deploy teardown instazone-$CI_ENVIRONMENT_SLUG.surge.sh
   when: manual
   environment:
     name: review/$CI_COMMIT_REF_NAME
@@ -91,8 +89,8 @@ deploy staging:
   only:
     - master  
   script:
-    - npm install --global surge
-    - surge --project ./public --domain $STAGING_DOMAIN
+    - npm install
+    - npm run deploy --project ./public --domain $STAGING_DOMAIN
 
 deploy production: 
   stage: deploy production
@@ -102,8 +100,8 @@ deploy production:
   only:
     - master    
   script:
-    - npm install --global surge
-    - surge --project ./public --domain $PRODUCTION_DOMAIN
+    - npm install
+    - npm run deploy --project ./public --domain $PRODUCTION_DOMAIN
 
 production tests:
   image: alpine
