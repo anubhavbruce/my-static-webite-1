@@ -477,8 +477,9 @@ const IndexPage = () => (
   <p>*************************************************</p>
   <p>Hi from Portugal! :) I wish you all a nice 2022 !</p>
   <p>*************************************************</p>
-  <p>
+  
   <p>Hello ! Greetings from Brazil (29/10/2022)!</p>
+ <p>
  __                              _               __
 / _   _  _  _ |_ .  _   _   _   (_  _  _   _    / _   _  _  _   _   _
 \__) |  (- (- |_ | | ) (_) _)   |  |  (_) |||   \__) (- |  ||| (_| | ) \/
@@ -501,6 +502,7 @@ const IndexPage = () => (
   <p>i like donuts so much.</p>
   <p>Cheers from Majorca, Spain!</p>
   <p>Greetings from Finland!</p>
+  <p>Purus in mollis nunc sed.</p>
   </Layout>
 )
 
