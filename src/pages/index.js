@@ -383,6 +383,12 @@ const IndexPage = () => (
   <p>Greetings from Burkina Faso</p>
   <p>Greetings from 2022</p>
   <p>Greetings from Dec 2022 by FBK</p>
+
+    <h1>Hi people</h1>
+    <h1>I'm Ali from Turkey :)</h1>
+    <h3>guys, nice to meet you here!</h3>    
+
+
   <p>welcome to awesome gitlab tutorial</p>
     <p>Welcome to the best GITLAB CI course in the World!.</p>
     <p>Welcome from Israel.</p>
