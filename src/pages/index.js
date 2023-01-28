@@ -356,12 +356,18 @@ const users = [
     fname:'Tom',
     lname:'Johnson',
     nickname: '@the_who'
+  },
+  {
+    fname:'Diego',
+    lname:'Kracoff',
+    nickname: '@eldikra'
   }
 ];
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <h1>ARGENTINA WORLD CHAMPION</h1>
     <h1>Hello form SA</h1>
     <h1>Chile el mejor pais se Chile</h1>
     <h1>SERBIA NOVAK DJOKOVIC</h1>
@@ -388,6 +394,7 @@ const IndexPage = () => (
   <p>Greetings from Burkina Faso</p>
   <p>Greetings from 2022</p>
   <p>Greetings from Dec 2022 by FBK</p>
+  <p>ARGENTINA WORLD CHAMPION</p>
 
     <h1>Hi people</h1>
     <h1>I'm Ali from Turkey :)</h1>
