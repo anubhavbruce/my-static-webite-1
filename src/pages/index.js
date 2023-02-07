@@ -362,6 +362,7 @@ const users = [
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <h1>Hello from ATL</h1>
     <h1>Hello form SA</h1>
     <h1>Chile el mejor pais se Chile</h1>
     <h1>SERBIA NOVAK DJOKOVIC</h1>
@@ -370,6 +371,7 @@ const IndexPage = () => (
     <h1>Hi people of the world from India!! :)</h1>
     <h1>Who will win the World Cup?</h1>
     <h2>PloPlu</h2>
+  <p>This has been fun all along from ATL</p>
   <p>Greeting from India!!</p>
   <p>Merry Christmas 2021 :P</p>
   <p>Greetings From Egypt :D</p>
