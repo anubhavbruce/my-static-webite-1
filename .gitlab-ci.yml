@@ -114,3 +114,4 @@ production tests:
     - apk add --no-cache curl
     - curl -s "https://$PRODUCTION_DOMAIN" | tac | tac | grep -q "Hi people"
     - curl -s "https://$PRODUCTION_DOMAIN" | tac | tac | grep -q "$CI_COMMIT_SHORT_SHA"
+    - echo "This line is added by Josh"
