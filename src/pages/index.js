@@ -381,6 +381,7 @@ const IndexPage = () => (
     <h1>Hi people of the world from India!! :)</h1>
     <h1>Who will win the World Cup?</h1>
     <h2>PloPlu</h2>
+  <p>Greetings from Venezuela 🇻🇪 please send food 🥺</p>
   <p>Greeting from India!!</p>
   <p>Merry Christmas 2021 :P</p>
   <p>Greetings From Egypt :D</p>
