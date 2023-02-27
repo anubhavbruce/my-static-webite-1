@@ -528,6 +528,7 @@ const IndexPage = () => (
   <p>Greetings from Finland!</p>
   <p>Greetings from Libya </p>
   <p>Greetings from Texas </p>
+  <p>Greetings from Madrid, Spain! </p>
   </Layout>
 )
 
