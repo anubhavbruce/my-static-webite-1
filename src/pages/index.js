@@ -7,12 +7,18 @@ import SEO from "../components/seo"
 import UsersTable from "../components/users-table"
 
 const users = [
-   {
+  {
+    fname: 'Teodor',
+    lname: 'Maeli'
+    nickname: '@thyPro'
+
+  },
+  {
     fname: 'Nerdy',
     lname: 'Nolde',
     nickname: '@NN'
   },
-   {
+  {
     fname: 'Francis',
     lname: 'BarreKirubanandam',
     nickname: '@FBK'
@@ -202,7 +208,7 @@ const users = [
     lname: 'Ds',
     nickname: '@chris495b'
   },
-    {
+  {
     fname: 'Samuel',
     lname: 'Goncalves',
     nickname: '@sgoncalves19'
@@ -218,133 +224,133 @@ const users = [
     nickname: '@armandoayala'
   },
   {
-    fname:'Jose',
+    fname: 'Jose',
     lname: 'Mourinho',
     nickname: '@TheSpecialOne'
   },
   {
-    fname:'Chris',
+    fname: 'Chris',
     lname: 'Tian',
     nickname: '@seranxx'
   },
   {
-    fname:'Maksim',
+    fname: 'Maksim',
     lname: 'Khitrov',
     nickname: '@khitrov.maks'
   },
   {
-    fname:'Ola',
+    fname: 'Ola',
     lname: 'S',
     nickname: '@sidorowicz-aleksandra'
   },
   {
-    fname:'Nicola',
+    fname: 'Nicola',
     lname: 'Zippo',
     nickname: '@nzsystems'
   },
   {
-    fname:'Gangadhar',
+    fname: 'Gangadhar',
     lname: 'Hariharan',
     nickname: '@ganga'
   },
   {
-    fname:'Sander',
+    fname: 'Sander',
     lname: 'B',
     nickname: '@null'
   },
   {
-    fname:'Lucas',
+    fname: 'Lucas',
     lname: 'Mendes',
     nickname: '@lbmendes'
   },
   {
-    fname:'Nursultan',
+    fname: 'Nursultan',
     lname: 'Kalniyazov',
     nickname: '@sultanka_real'
   },
   {
-    fname:'Nelson',
+    fname: 'Nelson',
     lname: 'Pacheco',
     nickname: '@nelsoned'
   },
   {
-    fname:'Vladimir',
+    fname: 'Vladimir',
     lname: 'Hale',
     nickname: '@vladah'
   },
   {
-    fname:'Cristian',
+    fname: 'Cristian',
     lname: 'Chanci',
     nickname: '@cchanci'
   },
   {
-    fname:'Mo',
+    fname: 'Mo',
     lname: 'Pishdar',
     nickname: '@mohpish'
   },
   {
-    fname:'Rui',
+    fname: 'Rui',
     lname: 'Duarte',
     nickname: '@P0w3rb0y'
   },
-    {
-    fname:'Scott',
+  {
+    fname: 'Scott',
     lname: 'Simmons',
     nickname: '@devrunner'
   },
   {
-    fname:'Víctor',
+    fname: 'Víctor',
     lname: 'González',
     nickname: '@gonzalezdelcampo'
   },
   {
-    fname:'Megha',
+    fname: 'Megha',
     lname: 'kundar',
     nickname: '@megz'
   },
   {
-    fname:'Sebastian',
-    lname:'Villalobos',
+    fname: 'Sebastian',
+    lname: 'Villalobos',
     nickname: '@sebiuo'
   },
   {
-    fname:'Sebos',
-    lname:'Bog',
+    fname: 'Sebos',
+    lname: 'Bog',
     nickname: '@_bog_'
   },
   {
-    fname:'Eitan',
-    lname:'Segel-Lion',
+    fname: 'Eitan',
+    lname: 'Segel-Lion',
     nickname: '@eitansl'
   },
   {
-    fname:'Sandzaja',
-    lname:'Wielka_Lechia',
+    fname: 'Sandzaja',
+    lname: 'Wielka_Lechia',
     nickname: '@slechia'
   },
   {
-    fname:'Abel',
-    lname:'Ouedraogo',
-    nickname:'@a.Ouedraogo'
+    fname: 'Abel',
+    lname: 'Ouedraogo',
+    nickname: '@a.Ouedraogo'
   },
   {
-    fname:'Denys',
-    lname:'Abramov',
+    fname: 'Denys',
+    lname: 'Abramov',
     nickname: '@denys.abramov.dev'
   },
   {
-    fname:'Luca',
-    lname:'Pattocchio',
+    fname: 'Luca',
+    lname: 'Pattocchio',
     nickname: '@l.pattocchio'
   },
   {
-    fname:'Robin',
-    lname:'Valencia',
+    fname: 'Robin',
+    lname: 'Valencia',
     nickname: '@robiwimarbu'
   },
   {
-    fname:'Yuki',
-    lname:'Ichikawa',
+    fname: 'Yuki',
+    lname: 'Ichikawa',
     nickname: '@Itchy'
   },
   {
@@ -353,18 +359,18 @@ const users = [
     nickname: '@abastos'
   },
   {
-    fname:'Vladimir',
-    lname:'Krastev',
+    fname: 'Vladimir',
+    lname: 'Krastev',
     nickname: '@vkr1stev'
   },
   {
-    fname:'Tom',
-    lname:'Johnson',
+    fname: 'Tom',
+    lname: 'Johnson',
     nickname: '@the_who'
   },
   {
-    fname:'Diego',
-    lname:'Kracoff',
+    fname: 'Diego',
+    lname: 'Kracoff',
     nickname: '@eldikra'
   }
 ];
@@ -372,6 +378,7 @@ const users = [
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <h1 style='color:red; font-size:40px;'>Hello from Bulgaria!</h1>
     <h1>ARGENTINA WORLD CHAMPION</h1>
     <h1>Hello form SA</h1>
     <h1>Chile el mejor pais se Chile</h1>
@@ -381,33 +388,33 @@ const IndexPage = () => (
     <h1>Hi people of the world from India!! :)</h1>
     <h1>Who will win the World Cup?</h1>
     <h2>PloPlu</h2>
-  <p>Greeting from India!!</p>
-  <p>Merry Christmas 2021 :P</p>
-  <p>Greetings From Egypt :D</p>
-  <p>Greetings From India ^-^ </p>
-  <p>Greetings from Wroclaw!!!!</p>
-  <p>Greetings From Lithuania</p>
-  <p>Greetings From Moscow!!!</p>
-  <p>Greetings From Serbia</p>
-	<p>Greetings From Planet Earth</p>
-  <p>Greetings From Ternopil</p>
-  <p>Greetings from Mars</p>
-  <p>Greetings from Asbury Park</p>
-  <p>Greetings from Lagos</p>
-  <p>Greetings from Turkey. Wish you a happy day!</p>
-  <p>Greetings from India!!!</p>
-  <p>Greetings from Burkina Faso</p>
-  <p>Greetings from 2022</p>
-  <p>Greetings from Dec 2022 by FBK</p>
-  <p>ARGENTINA WORLD CHAMPION</p>
+    <p>Greeting from India!!</p>
+    <p>Merry Christmas 2021 :P</p>
+    <p>Greetings From Egypt :D</p>
+    <p>Greetings From India ^-^ </p>
+    <p>Greetings from Wroclaw!!!!</p>
+    <p>Greetings From Lithuania</p>
+    <p>Greetings From Moscow!!!</p>
+    <p>Greetings From Serbia</p>
+    <p>Greetings From Planet Earth</p>
+    <p>Greetings From Ternopil</p>
+    <p>Greetings from Mars</p>
+    <p>Greetings from Asbury Park</p>
+    <p>Greetings from Lagos</p>
+    <p>Greetings from Turkey. Wish you a happy day!</p>
+    <p>Greetings from India!!!</p>
+    <p>Greetings from Burkina Faso</p>
+    <p>Greetings from 2022</p>
+    <p>Greetings from Dec 2022 by FBK</p>
+    <p>ARGENTINA WORLD CHAMPION</p>
 
     <h1>Hi people</h1>
     <h1>I'm Ali from Turkey :)</h1>
-    <h3>guys, nice to meet you here!</h3>   
-      <p>do you know that you are the most beautiful person in this world? </p> 
+    <h3>guys, nice to meet you here!</h3>
+    <p>do you know that you are the most beautiful person in this world? </p>
 
 
-  <p>welcome to awesome gitlab tutorial</p>
+    <p>welcome to awesome gitlab tutorial</p>
     <p>Welcome to the best GITLAB CI course in the World!.</p>
     <p>Welcome from Israel.</p>
     <p>Welcome from Russia.</p>
@@ -426,7 +433,7 @@ const IndexPage = () => (
     <p>Assignment 5 merge request, new paragraph</p>
     <p>Being crazy isnt enough. - Dr. Seuss</p>
     <p>Greetings from Germany :) and from Italy :) :)</p>
-	<p>Greeting from all Slavs!</p>
+    <p>Greeting from all Slavs!</p>
     <p>Seasons greetings from Germany ;-)</p>
     <p>Hello from somewhere in the world</p>
     <p>Greetings from Spain :) and from Gibraltar :) :)</p>
@@ -492,49 +499,49 @@ const IndexPage = () => (
     <p>Greetings from The USA! Happy Holidays!!</p>
     <p>Greetings from Sofia, Bulgaria</p>
     <p>Greetings from Tokyo, Japan!</p>
-	<p>Hi from Czech</p>
+    <p>Hi from Czech</p>
     <p>Greetings from Space!</p>
     <p>Hello from 2094 year</p>
     <p>Glory to Valentin ! The master of CI \o/</p>
     <p>Peace and support are so important values for the whole world and each person in particular</p>
-  <p>
-    Greeting from Dresden (Germany) in 2022. Hope you all had a good start
-    into the new year! I cannot wait for the year of the tiger! Also, you should
-    visit Dresden, it is a beatiful city and Saxony Swiss is also a great for
-    taking pictures!
-  </p>
+    <p>
+      Greeting from Dresden (Germany) in 2022. Hope you all had a good start
+      into the new year! I cannot wait for the year of the tiger! Also, you should
+      visit Dresden, it is a beatiful city and Saxony Swiss is also a great for
+      taking pictures!
+    </p>
     <p>Hello also from Dresden!</p>
-  <p>*************************************************</p>
-  <p>Hi from Portugal! :) I wish you all a nice 2022 !</p>
-  <p>*************************************************</p>
-  <p>
-  <p>Hello ! Greetings from Brazil (29/10/2022)!</p>
- __                              _               __
-/ _   _  _  _ |_ .  _   _   _   (_  _  _   _    / _   _  _  _   _   _
-\__) |  (- (- |_ | | ) (_) _)   |  |  (_) |||   \__) (- |  ||| (_| | ) \/
-                       _/                                              /
-  </p>
-  <p>Hello from Ukraine!</p>
-  <p>Valentin you are awesome!</p>
-  <p>Valentine you are awesome!</p>
-  <p>Greeting from Colombia! Greate practice</p>
-  <p>Greeting from Italy Turin city</p>
-  <p>This message will self destruct in 5 ... 4 ... 3 ...</p>
-  <p>Greeting from A Coruña, Spain</p>
-  <p>Luiz F Estivalet was here, greetings from Brazil, thanks for the course!</p>
-  <p><i>Quidquid latine dictum sit, altum videtur</i></p>
+    <p>*************************************************</p>
+    <p>Hi from Portugal! :) I wish you all a nice 2022 !</p>
+    <p>*************************************************</p>
+    <p>
+      <p>Hello ! Greetings from Brazil (29/10/2022)!</p>
+      __                              _               __
+      / _   _  _  _ |_ .  _   _   _   (_  _  _   _    / _   _  _  _   _   _
+      \__) |  (- (- |_ | | ) (_) _)   |  |  (_) |||   \__) (- |  ||| (_| | ) \/
+      _/                                              /
+    </p>
+    <p>Hello from Ukraine!</p>
+    <p>Valentin you are awesome!</p>
+    <p>Valentine you are awesome!</p>
+    <p>Greeting from Colombia! Greate practice</p>
+    <p>Greeting from Italy Turin city</p>
+    <p>This message will self destruct in 5 ... 4 ... 3 ...</p>
+    <p>Greeting from A Coruña, Spain</p>
+    <p>Luiz F Estivalet was here, greetings from Brazil, thanks for the course!</p>
+    <p><i>Quidquid latine dictum sit, altum videtur</i></p>
     <p>Greetings from Singapore and also meow </p>
-  <p>Greetings from Italy</p>
-  <p>Hello from Spain!</p>
-  <p>Hello from India,Delhi</p>
-  <p>Hello from India,Chennai dec 2022 by Francis Barre Kirubanandam</p>
-  <p>Allo from Montreal!</p>
-  <p>i like donuts so much.</p>
-  <p>Cheers from Majorca, Spain!</p>
-  <p>Greetings from Finland!</p>
-  <p>Greetings from Libya </p>
-  <p>Greetings from Texas </p>
-  <p>Greeting everyone 2023</p>
+    <p>Greetings from Italy</p>
+    <p>Hello from Spain!</p>
+    <p>Hello from India,Delhi</p>
+    <p>Hello from India,Chennai dec 2022 by Francis Barre Kirubanandam</p>
+    <p>Allo from Montreal!</p>
+    <p>i like donuts so much.</p>
+    <p>Cheers from Majorca, Spain!</p>
+    <p>Greetings from Finland!</p>
+    <p>Greetings from Libya </p>
+    <p>Greetings from Texas </p>
+    <p>Greeting everyone 2023</p>
   </Layout>
 )
 
