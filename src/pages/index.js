@@ -372,6 +372,7 @@ const users = [
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <h1>France</h1>
     <h1>ARGENTINA WORLD CHAMPION</h1>
     <h1>Hello form SA</h1>
     <h1>Chile el mejor pais se Chile</h1>
