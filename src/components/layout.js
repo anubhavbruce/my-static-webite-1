@@ -40,7 +40,7 @@ const Layout = ({ children }) => (
             © {new Date().getFullYear()}, Built with
             {` `}
             <a href="https://www.gatsbyjs.org">Gatsby @ React Framework</a>
-            <p>Powered by students</p>
+            <p>Powered by students in {new Date().getFullYear()}</p>
             <p>HeyHo</p>
           </footer>
         </div>
