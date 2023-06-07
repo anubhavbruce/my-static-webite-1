@@ -366,6 +366,11 @@ const users = [
     fname:'Diego',
     lname:'Kracoff',
     nickname: '@eldikra'
+  },
+  {
+    fname:'Toky',
+    lname:'S.',
+    nickname: '@herostoky'
   }
 ];
 
@@ -404,6 +409,8 @@ const IndexPage = () => (
   <p>Greetings from 2022</p>
   <p>Greetings from Dec 2022 by FBK</p>
   <p>ARGENTINA WORLD CHAMPION</p>
+
+  <p>Yes, this is another Hello from <small><a href="https://gitlab.com/herostoky" target="_blank">@herostoky</a></small></p>
 
     <h1>Hi people</h1>
     <h1>I'm Ali from Turkey :)</h1>
