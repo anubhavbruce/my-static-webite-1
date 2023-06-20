@@ -527,7 +527,8 @@ const IndexPage = () => (
     <span id="current_time">{new Date(tmNow).toLocaleString()}</span>
   </p>
   <p>
-    <code><pre>_                              _               __
+    <code><pre>
+  _                              _               __
 / _   _  _  _ |_ .  _   _   _   (_  _  _   _    / _   _  _  _   _   _
 \__) |  (- (- |_ | | ) (_) _)   |  |  (_) |||   \__) (- |  ||| (_| | ) \/
                        _/                                              /
