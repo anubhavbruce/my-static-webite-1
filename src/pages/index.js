@@ -528,11 +528,11 @@ const IndexPage = () => (
   </p>
   <p>
     <code><pre>
-  _                              _               __
+ __                              _               __
 / _   _  _  _ |_ .  _   _   _   (_  _  _   _    / _   _  _  _   _   _
 \__) |  (- (- |_ | | ) (_) _)   |  |  (_) |||   \__) (- |  ||| (_| | ) \/
                        _/                                              /
-    </code></pre>
+    </pre></code>
   </p>
   <p>Hello from Ukraine!</p>
   <p>Valentin you are awesome!</p>
