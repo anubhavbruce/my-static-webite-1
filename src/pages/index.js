@@ -6,6 +6,8 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import UsersTable from "../components/users-table"
 
+const tmNow = Date.now();
+
 const users = [
    {
     fname: 'Nerdy',
@@ -519,12 +521,17 @@ const IndexPage = () => (
   <p>*************************************************</p>
   <p>Hi from Portugal! :) I wish you all a nice 2022 !</p>
   <p>*************************************************</p>
-  <p>
+  <p></p>
   <p>Hello ! Greetings from Brazil (29/10/2022)!</p>
- __                              _               __
+  <p>
+    <span id="current_time">{new Date(tmNow).toLocaleString()}</span>
+  </p>
+  <p>
+    <code><pre>_                              _               __
 / _   _  _  _ |_ .  _   _   _   (_  _  _   _    / _   _  _  _   _   _
 \__) |  (- (- |_ | | ) (_) _)   |  |  (_) |||   \__) (- |  ||| (_| | ) \/
                        _/                                              /
+    </code></pre>
   </p>
   <p>Hello from Ukraine!</p>
   <p>Valentin you are awesome!</p>
