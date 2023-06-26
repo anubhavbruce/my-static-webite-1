@@ -542,6 +542,7 @@ const IndexPage = () => (
   <p>Happy 2023 from Lisbon, Portugal!</p>
   <p>Greetings from Mykolaiv,Ukraine!</p>
     <p>Greetings from Denizi, Turkey!</p>
+  <p>Greetings from Kuala Lumpur, Malaysia!</p>
   </Layout>
 )
 
