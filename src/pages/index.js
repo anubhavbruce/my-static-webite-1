@@ -368,6 +368,11 @@ const users = [
     nickname: '@eldikra'
   },
   {
+    fname:'Maksym',
+    lname:'Tykhonenko',
+    nickname: '@twings'
+  },
+  {
     fname:'Paul-Marie',
     lname:'TATI',
     nickname: '@tatipaulmarie'
