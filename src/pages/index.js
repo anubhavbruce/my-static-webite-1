@@ -366,7 +366,12 @@ const users = [
     fname:'Diego',
     lname:'Kracoff',
     nickname: '@eldikra'
-  }
+  },
+  {
+    fname:'Maksym',
+    lname:'Tykhonenko',
+    nickname: '@twings'
+  },
 ];
 
 const IndexPage = () => (
