@@ -407,6 +407,7 @@ const IndexPage = () => (
 
     <h1>Hi people</h1>
     <h1>I'm Ali from Turkey :)</h1>
+    <h2> this is amy </h2>
     <h3>guys, nice to meet you here!</h3>   
       <p>do you know that you are the most beautiful person in this world? </p> 
 
