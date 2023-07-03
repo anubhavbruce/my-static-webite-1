@@ -380,6 +380,7 @@ const IndexPage = () => (
 	<h1>HELLO FROM EARTH</h1>
 	<h2>Nature is beatiful!</h2>
     <h1>ARGENTINA WORLD CHAMPION</h1>
+    <h1>EDIN DZEKO BEST STRIKER</h1>
     <h1>Hello from India! </h1>
     <h1>Hello form SA</h1>
     <h1>Chile el mejor pais se Chile</h1>
