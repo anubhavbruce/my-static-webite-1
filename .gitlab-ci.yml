@@ -45,6 +45,15 @@ test artifact:
   script:
     - grep -q "Gatsby" ./public/index.html
 
+test artifact:
+  image: alpine
+  stage: test
+  only:
+    - master
+    - merge_requests
+  script:
+    - grep -q "schooby doo" ./public/index.html
+
 test website:
   stage: test
   only:
