@@ -416,8 +416,8 @@ const IndexPage = () => (
 
     <h1>Hi people</h1>
     <h1>I'm Ali from Turkey :)</h1>
-    <h3>guys, nice to meet you here!</h3>   
-      <p>do you know that you are the most beautiful person in this world? </p> 
+    <h3>guys, nice to meet you here!</h3>
+      <p>do you know that you are the most beautiful person in this world? </p>
 
 
   <p>welcome to awesome gitlab tutorial</p>
@@ -559,6 +559,7 @@ const IndexPage = () => (
   <p>Happy 2023 from Lisbon, Portugal!</p>
   <p>Greetings from Mykolaiv,Ukraine!</p>
     <p>Greetings from Denizi, Turkey!</p>
+  <code>Hello From Today, @eZetsu</code>
   </Layout>
 )
 

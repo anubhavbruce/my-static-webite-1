@@ -19,9 +19,9 @@ const UsersTable = ({ users }) => (
     </tr>
     <tbody>
       {
-        users.map(user => {
+        users.map((user, key) => {
           return (
-            <tr>
+            <tr key={key}>
               <td>{ user.fname }</td>
               <td>{ user.lname }</td>
               <td><a href={userProfileLink(user.nickname)}>{ user.nickname }</a></td>
