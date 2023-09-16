@@ -9,7 +9,12 @@ import UsersTable from "../components/users-table"
 const tmNow = Date.now();
 
 const users = [
-   {
+  {
+    fname: 'Leonardo',
+    lname: 'DM',
+    nickname: '@LDM'
+  },
+  {
     fname: 'Nerdy',
     lname: 'Nolde',
     nickname: '@NN'
@@ -558,7 +563,8 @@ const IndexPage = () => (
   <p>Greeting everyone 2023</p>
   <p>Happy 2023 from Lisbon, Portugal!</p>
   <p>Greetings from Mykolaiv,Ukraine!</p>
-    <p>Greetings from Denizi, Turkey!</p>
+  <p>Greetings from Denizi, Turkey!</p>
+  <p>Greetings from Italy!</p>
   </Layout>
 )
 
