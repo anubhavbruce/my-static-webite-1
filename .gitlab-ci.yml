@@ -77,6 +77,8 @@ stop review:
     GIT_STRATEGY: none
   script:
     - npm install --global surge
+    - echo "Domain instazone-$CI_ENVIRONMENT_SLUG.surge.sh will be deleted in 10 seconds"
+    - sleep 5
     - surge teardown instazone-$CI_ENVIRONMENT_SLUG.surge.sh
   when: manual
   environment:
